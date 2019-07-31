@@ -1,3 +1,41 @@
+.frame {
+    height: 25px;      /* equals max image height */
+    width: 160px;
+    border: 1px solid red;
+    white-space: nowrap;
+    text-align: center; margin: 1em 0;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+img {
+    vertical-align: middle;
+    max-height: auto;
+    max-width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #logo {
 	position: absolute;
 	top: 15px;
@@ -75,19 +113,6 @@ img.gallery_display  {
 }
 
 
-div {
-    position: relative;
-    width: 2000px;
-    height: 2000px;
-}
-
-img {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    max-width:25%
-}
 
 body
 {
