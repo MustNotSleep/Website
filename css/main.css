@@ -1,6 +1,6 @@
 .frame {
-    height: 25px;      /* equals max image height */
-    width: 160px;
+    height: auto;      /* equals max image height */
+    width: auto;
     border: 1px solid red;
     white-space: nowrap;
     text-align: center; margin: 1em 0;
