@@ -62,6 +62,8 @@ background: linear-gradient(45deg, #2493D8, #4AB9FE);
 img.gallery_display  {
   max-width:25%;
   max-height:auto;
+  margin: auto;
+  padding: 2em;
 }
 
 body
