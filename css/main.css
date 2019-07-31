@@ -60,9 +60,10 @@ background: linear-gradient(45deg, #2493D8, #4AB9FE);
 }
 
 img.gallery_display  {
+  display: block;
   max-width:25%;
   max-height:auto;
-  margin: auto;
+  margin-right: auto; margin-left: auto;
   padding: 2em;
 }
 
