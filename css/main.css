@@ -59,6 +59,10 @@ background-color: #2493D8;
 background: linear-gradient(45deg, #2493D8, #4AB9FE);
 }
 
+img.resize {
+  max-width:50%;
+  max-height:50%;
+}
 
 body
 {
