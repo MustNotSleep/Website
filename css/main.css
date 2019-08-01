@@ -39,9 +39,9 @@ img {
     margin: 10px, 10px, 5px, 10px;
 }
 
-@media screen and (min-height: 1200px) {
+@media screen and (min-height: 1080px) {
  img {
-     max-height:1000px
+     max-height:950x
     }
 }
 
