@@ -1,3 +1,7 @@
+#header {
+    margin-bottom: 85px;
+}
+
 .frame {
     height: auto;      /* equals max image height */
     width: auto;
@@ -37,7 +41,7 @@ img {
 .caption {
  font-family: Helvetica, Arial, sans-serif;
  font-size: 10px;
- margin-bottom: 150px;
+ margin-bottom: 135px;
 }
 
 body
