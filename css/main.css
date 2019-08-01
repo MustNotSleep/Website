@@ -33,7 +33,8 @@ img {
 
 @media screen and (min-height: 1080px) {
  img {
-     max-height:950x
+     max-height:950x;
+     max-width: 95%;
     }
 }
 
