@@ -16,7 +16,7 @@ margin-bottom: 45px;
 }
 
 .frame {
-    height: auto;      /* equals max image height */
+    height: auto;
     width: auto;
     #border: 1px solid red;
     white-space: nowrap;
