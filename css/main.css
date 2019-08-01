@@ -16,7 +16,7 @@ img {
     vertical-align: middle;
     max-height: 750px;
     max-width: 75%;
-    padding: 40px;
+    padding: 40px, 40px, 15px, 40px;
 }
 
 .center {
@@ -29,6 +29,10 @@ img {
 
 .small {
  max-height: 250px;   
+}
+
+.caption {
+ font-family: Helvetica, Arial, sans-serif;   
 }
 
 body
