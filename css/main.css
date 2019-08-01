@@ -27,7 +27,9 @@ img {
   max-height:auto;
 }
 
-
+.small {
+ max-height: 250px;   
+}
 
 body
 {
