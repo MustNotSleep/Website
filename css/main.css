@@ -12,14 +12,13 @@
     vertical-align: middle;
 }
 div {
-        padding: 40px, 40px, 40px, 40px;
+        padding: 50px, 50px, 50px, 50px;
 }
 
 img {
     vertical-align: middle;
     max-height: 750px;
     max-width: 75%;
-    padding: 40px, 40px, 15px, 40px;
     margin: 10px;
 }
 
