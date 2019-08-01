@@ -36,6 +36,12 @@ img {
      max-height:950x;
      max-width: 95%;
     }
+  #header {
+    font-size: 35px;
+    }
+   body {
+       background-color: lightblue;
+    }
 }
 
 .center {
