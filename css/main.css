@@ -4,7 +4,15 @@
     font-size: 65px;
     tex-align: center;
     margin-top: -15px;
-    margin-bottom: 45px;
+}
+
+#banner-rule {
+border-top: 5px solid #696969;
+position: absolute;
+top: 200px;
+left: 0px;
+width: 75%;
+margin-bottom: 45px;
 }
 
 .frame {
