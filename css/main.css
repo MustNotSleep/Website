@@ -8,7 +8,7 @@
 .frame {
     height: auto;      /* equals max image height */
     width: auto;
-    border: 1px solid red;
+    #border: 1px solid red;
     white-space: nowrap;
     text-align: center; margin: 1em 0;
 }
