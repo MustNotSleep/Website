@@ -26,8 +26,8 @@
 
 img {
     vertical-align: middle;
-    max-height: 750px;
-    max-width: 75%;
+    max-height: 45em;
+    max-width: 30em;
     margin: 10px, 10px, 5px, 10px;
 }
 
@@ -38,7 +38,7 @@ img {
 }
 
 .small {
- max-width: 25%;   
+ max-width: 25em;   
 }
 
 .caption {
