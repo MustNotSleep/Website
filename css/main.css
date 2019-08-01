@@ -21,6 +21,7 @@ margin-bottom: 45px;
     #border: 1px solid red;
     white-space: nowrap;
     text-align: center; margin: 1em 0;
+    padding: 50px, 50px, 50px, 50px;
 }
 
 .helper {
@@ -28,9 +29,7 @@ margin-bottom: 45px;
     height: 100%;
     vertical-align: middle;
 }
-div {
-        padding: 50px, 50px, 50px, 50px;
-}
+
 
 img {
     vertical-align: middle;
