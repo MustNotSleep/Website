@@ -1,1 +1,1 @@
-$('#painter').click(function(){ document.getElementByID('painter_link').src='/images/ndiwidn.jpg'"; return false; });
+$('#painter').click(function(){ document.getElementByID('photo1').src='/images/ndiwidn.jpg'"; return false; });
