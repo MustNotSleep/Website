@@ -7,7 +7,7 @@
     margin-bottom: 15px;
 }
 
-#header-sub {
+.header-sub {
 font-family: "effra", Varela Round,arial,sans-serif; 
 font-size: 15px;
 z-index: 1;
@@ -22,7 +22,7 @@ margin: 0px;
 white-space: nowrap;
 }
 
-#header-sub a, a:link, a:visited, a:visited {
+.header-sub a, a:link, a:visited, a:visited {
 display: inline-block;
 color: #000000;
 padding: 0.1em 0.3em 0.1em 0.3em;
@@ -32,7 +32,7 @@ text-decoration: none;
 white-space: nowrap;
 }
 
-#header-sub a:hover {
+.header-sub a:hover {
 font-weight: bold;
 }
 
