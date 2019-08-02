@@ -12,7 +12,7 @@
 .bannertabs {
     font-family: "effra", Varela Round,arial,sans-serif; 
     font-size: 15px;
-    border: 1px solid red;
+    #border: 1px solid red;
     z-index: 1;
     text-align: center;
     margin: 0px;
