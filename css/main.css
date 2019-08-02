@@ -24,7 +24,7 @@
 white-space: nowrap;
 }
 
-.bannertabs a, a:link, a:visited, a:visited {
+.banner a, a:link, a:visited, a:visited {
     color: #696969;
     padding: 0.1em 1em 0.1em 1em;
     width: 1em;
@@ -33,7 +33,7 @@ white-space: nowrap;
     white-space: nowrap;
 }
 
-.bannertabs a:hover {
+.banner a:hover {
     font-weight: bold;
 }
 
