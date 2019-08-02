@@ -11,6 +11,9 @@
 font-family: "effra", Varela Round,arial,sans-serif; 
 font-size: 15px;
 z-index: 1;
+position: absolute;
+margin: 0px;
+
 }
 
 
