@@ -8,11 +8,8 @@
 }
 
 #banner-tabs {
-position: absolute;
-font-family: Arial, sans-serif; 
+font-family: "effra", Varela Round,arial,sans-serif; 
 font-size: 22px;
-top: 205px;
-left: 225px;
 z-index: 1;
 }
 
