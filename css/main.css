@@ -7,6 +7,35 @@
     margin-bottom: 15px;
 }
 
+#banner-tabs {
+position: absolute;
+font-family: Arial, sans-serif; 
+font-size: 22px;
+top: 205px;
+left: 225px;
+z-index: 1;
+}
+
+
+#menu  {
+white-space: nowrap;
+}
+
+#banner-tabs a, a:link, a:visited, a:visited {
+display: inline-block;
+color: #000000;
+background-color: #34A3E8;
+border-radius: 0.2em;
+padding: 0.1em 0.9em 0.1em 0.9em;
+width: 4em;
+text-align: center;
+text-decoration: none;
+white-space: nowrap;
+}
+
+#banner-tabs a:hover {
+font-weight: bold;
+}
 
 .frame {
     height: auto;
