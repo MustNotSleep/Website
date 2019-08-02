@@ -7,7 +7,7 @@
     margin-bottom: 15px;
 }
 
-.header-sub {
+.bannertabs {
 font-family: "effra", Varela Round,arial,sans-serif; 
 font-size: 15px;
     border: 1px solid red;
@@ -23,7 +23,7 @@ margin: 0px;
 white-space: nowrap;
 }
 
-.header-sub a, a:link, a:visited, a:visited {
+.bannertabs a, a:link, a:visited, a:visited {
 display: inline-block;
 color: #696969;
 padding: 0.1em 0.3em 0.1em 0.3em;
@@ -33,7 +33,7 @@ text-decoration: none;
 white-space: nowrap;
 }
 
-.header-sub a:hover {
+.bannertabs a:hover {
 font-weight: bold;
 }
 
