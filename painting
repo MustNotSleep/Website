@@ -45,7 +45,7 @@
             <a href=../>Kevin Rossoll</a>
         </div>
         <div class="banner">
-            <a href=/painting class="bannertabs";'>painting</a>
+            <a href=/painting class="bannertabs">painting</a>
             <a href=/drawing class="bannertabs">drawing</a>
             <a href=#/contact class="bannertabs">contact</a>
         </div>
