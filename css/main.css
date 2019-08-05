@@ -82,26 +82,19 @@ background-color: #fff;
 }
 
 
-media only screen and (max-width: 600px) {
-                
-                
+@media only screen and (max-width: 600px) {
+                                
                img {
-                 max-height: 21em;
-                 max-width: 100%;
-        
-                 
+                     max-height: 21em;
+                     max-width: 100%;
                 }
                
                 #name {
-                 font-size: 33px;
+                    font-size: 33px;
                 }
                
                 .small {
-                 max-height:20em;
-                 max-width: 80%;   
+                     max-height:20em;
+                     max-width: 80%;   
                 }
-               
-    body {
-        background: blue;
-    }
             }
