@@ -11,26 +11,26 @@
 
 .bannertabs {
     font-family: Arial, sans-serif; 
-    font-size: 16px;
+    #font-size: 16px;
     #border: 1px solid red;
-    z-index: 1;
-    text-align: center;
-    margin: 0px;
+    #z-index: 1;
+    #text-align: center;
+    #margin: 0px;
 
 }
 
 
 #menu  {
-white-space: nowrap;
+#white-space: nowrap;
 }
 
 .banner a, a:link, a:visited, a:visited {
     color: #696969;
     padding: 0.1em 0.4em 0.1em 0.4em;
-    width: 1em;
-    text-align: center;
+    #width: 1em;
+    #text-align: center;
     text-decoration: none;
-    white-space: nowrap;
+    #white-space: nowrap;
 }
 
 .banner a:hover {
