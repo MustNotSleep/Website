@@ -1,5 +1,5 @@
 #header {
-    font-family: arial,sans-serif;
+    font-family: Arial,sans-serif;
     color: #696969;
     text-align: center;
     margin-top: 5px;
@@ -10,7 +10,7 @@
      font-size: 50px;   
 }
 .bannertabs {
-    font-family: "effra", Varela Round,arial,sans-serif; 
+    font-family: Arial, sans-serif; 
     font-size: 15px;
     #border: 1px solid red;
     z-index: 1;
@@ -55,9 +55,9 @@ white-space: nowrap;
 
 img {
     vertical-align: middle;
-    max-height: 35em;
+    max-height: 750px;
     max-width: 75%;
-    margin: 10px, 10px, 5px, 10px;
+    margin: 10px 10px 5px 10px;
 }
 
 div {
