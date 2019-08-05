@@ -32,8 +32,8 @@
 }
 
 .frame {
-    height: auto;
-    width: auto;
+    #height: auto;
+    #width: auto;
     #border: 1px solid red;
     white-space: nowrap;
     text-align: center;
