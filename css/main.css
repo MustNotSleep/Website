@@ -2,7 +2,7 @@
     font-family: Arial,sans-serif;
     color: #696969;
     text-align: center;
-    margin-top: 5px;
+    margin-top: 0.5vh;
 }
 
 #name {
@@ -14,17 +14,10 @@
 }
 
 
-#menu  {
-#white-space: nowrap;
-}
-
 .banner a, a:link, a:visited, a:visited {
     color: #696969;
-    padding: 0.1em 0.4em 0.1em 0.4em;
-    #width: 1em;
-    #text-align: center;
+    padding: 0.5vh 2vh 0.5vh 2vh;
     text-decoration: none;
-    #white-space: nowrap;
 }
 
 .banner a:hover {
@@ -41,7 +34,7 @@
 }
 
 .hero {
-    padding: 2vh 2vh 35vh 2vh;
+    padding: 2vh 2vh 25vh 2vh;
 }
 
 .helper {
@@ -55,7 +48,7 @@ img {
     vertical-align: middle;
     max-height: 82vh;
     max-width: 83vw;
-    margin: 0px 10px 5px 10px;
+    margin: 0vh 1vh 0.5vh 1vh;
 }
 
 div {
