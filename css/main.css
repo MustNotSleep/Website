@@ -14,7 +14,7 @@
 }
 
 
-.banner a, a:link, a:visited, a:visited {
+.banner :link, a, a:visited {
     color: #696969;
     padding: 0.5vh 2vh 0.5vh 2vh;
     text-decoration: none;
