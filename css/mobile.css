@@ -2,16 +2,16 @@
     font-family: arial,sans-serif;
     color: #696969;
     text-align: center;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 200px;
 }
 
 #name {
-     font-size: 33px;   
+     font-size: 65px;   
 }
 .bannertabs {
     font-family: "effra", Varela Round,arial,sans-serif; 
-    font-size: 15px;
+    font-size: 35px;
     #border: 1px solid red;
     z-index: 1;
     text-align: center;
@@ -55,9 +55,9 @@ white-space: nowrap;
 
 img {
     vertical-align: middle;
-    max-height: 21em;
+    max-height: 50em;
     max-width: 100%;
-    margin: 10px, 10px, 5px, 10px;
+    margin: 10px 10px 5px 10px;
 }
 
 div {
@@ -67,14 +67,14 @@ div {
 }
 
 .small {
-        max-height:20em;
+        max-height:35em;
         max-width: 80%;   
 }
 
 .caption {
  font-family: Helvetica, Arial, sans-serif;
- font-size: 10px;
- margin-bottom: 135px;
+ font-size: 35px;
+ margin-bottom: 200px;
 }
 
 body
