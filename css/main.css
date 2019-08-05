@@ -97,4 +97,9 @@ background-color: #fff;
                      max-height:20em;
                      max-width: 80%;   
                 }
+    
+                #header {
+                color: #696969;
+                margin-bottom: 10px;
+            }
             }
