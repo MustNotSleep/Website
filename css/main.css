@@ -71,7 +71,7 @@ div {
 }
 
 .small {
- max-width: 25em;   
+ max-width: 20vw;   
 }
 
 .caption {
@@ -98,7 +98,7 @@ background-color: #fff;
                 }
                
                 .small {
-                     max-width: 80%;   
+                     max-width: 65vw;   
                 }
     
             }
