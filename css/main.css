@@ -37,11 +37,11 @@
     #border: 1px solid red;
     white-space: nowrap;
     text-align: center;
-    padding: 30px 10px 90px 10px;
+    padding: 2vh 2vh 25vh 2vh;
 }
 
 .hero {
-    padding: 30px 10px 190px 10px;
+    padding: 2vh 2vh 35vh 2vh;
 }
 
 .helper {
@@ -83,7 +83,7 @@ background-color: #fff;
 @media only screen and (max-width: 600px) {
                                 
                img {
-                     max-height: 60vh;
+                     max-height: 75vh;
                      max-width: 83vw;
                 }
 
