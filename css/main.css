@@ -80,3 +80,21 @@ body
 {
 background-color: #fff;	
 }
+
+@media only screen and (max-width: 600px) {
+                                
+    img {
+        max-height: 21em;
+        max-width: 100%;
+    }
+
+    #name {
+        font-size: 33px;
+    }
+               
+    .small {
+        max-height:20em;
+        max-width: 80%;   
+    }
+               
+}
