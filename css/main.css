@@ -11,7 +11,7 @@
 
 .bannertabs {
     font-family: Arial, sans-serif; 
-    font-size: 15px;
+    font-size: 16px;
     #border: 1px solid red;
     z-index: 1;
     text-align: center;
@@ -100,4 +100,5 @@ background-color: #fff;
                 .small {
                      max-width: 80%;   
                 }
+    
             }
