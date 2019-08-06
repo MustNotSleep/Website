@@ -10,10 +10,15 @@ color: #696969;
     margin-top: 0.5vh;
 }
 
+
 #name {
      font-size: 5.5vh;   
 }
 
+h1 {
+   font-weight: normal;
+   font-size: inherit;
+}
 .bannertabs {
     font-size: 2.3vh;
 }
