@@ -62,6 +62,11 @@ div {
   margin-right: auto;
 }
 
+.course {
+    width: 50vw;
+    text-align: left;
+}
+
 .small {
  max-width: 20vw;   
 }
