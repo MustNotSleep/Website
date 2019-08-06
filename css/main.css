@@ -150,20 +150,26 @@ div.desc {
 @media only screen and (max-width: 600px) {
                                 
                img {
-                     max-height: 60vh;
+                     max-height: 62vh;
                      max-width: 83vw;
                 }
                 
                 .course {
                  width: 85vw;
-                 margin-top: 6vh;
-                }
+                 margin-top: 
+                 
+                 .course img {
+                 max-width: 75vw;
+                 max-height: 55vh;
+
+                 }
+
                 .small {
                      max-width: 65vw;   
                 }
     
               .responsive {
-                    width: 100%;
+                    width: 90%;
                   }
 
                     }
