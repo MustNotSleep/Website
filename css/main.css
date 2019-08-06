@@ -1,13 +1,13 @@
-#header {
-    font-family: Arial,sans-serif;
-    color: #696969;
-    text-align: center;
-    margin-top: 0.5vh;
-}
-
 body
 {
 background-color: #fff;	
+font-family: Arial,sans-serif;
+color: #696969;
+}
+
+#header {
+    text-align: center;
+    margin-top: 0.5vh;
 }
 
 #name {
