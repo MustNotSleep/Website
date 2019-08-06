@@ -73,11 +73,9 @@ background-color: #fff;
 }
 
 dt {
-    display: block;
     font-style: italic;
     font-weight: bold;
     font-size: 18px;
-    text-align: right;
     padding: 0 26px 0 0;
     width: 150px;
     float: left;
@@ -87,13 +85,10 @@ dt {
 
 dd {
     width: 600px;
-    float: right;
-    display: block;
     margin-inline-start: 40px;
 }
 
 h2 {
-    display: block;
     font-size: 1.5em;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
@@ -103,7 +98,6 @@ h2 {
 }
 
 #info {
-    display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
