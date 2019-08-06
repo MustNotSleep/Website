@@ -57,7 +57,7 @@ h4 {
 .frame {
     #height: auto;
     #width: auto;
-    border: 1px solid red;
+    #border: 1px solid red;
     white-space: nowrap;
     text-align: center;
     margin: 2vh 2vh 15vh 2vh;
@@ -90,7 +90,7 @@ div {
 .course {
     height: auto;
     width: 75vw;
-    border: 1px solid red;
+    #border: 1px solid red;
     text-align: left;
     margin-top: 15vh;
 }
