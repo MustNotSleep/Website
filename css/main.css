@@ -86,8 +86,12 @@ div {
 }
 
 .course {
-    width: 50vw;
+    height: auto;
+    width: 75vw;
+    border: 1px solid red;
+    white-space: nowrap;
     text-align: left;
+    padding: 2vh 2vh 15vh 20vh;
 }
 
 .small {
