@@ -177,7 +177,11 @@ div.desc {
                      max-height: 62vh;
                      max-width: 83vw;
                 }
-                
+                                
+                .page_name {
+                  font-size: 3vh;
+                  }
+
                 .course {
                  width: 85vw;
                  margin-top: 6vh;
@@ -198,4 +202,3 @@ div.desc {
   display: table;
   clear: both;
 }
-
