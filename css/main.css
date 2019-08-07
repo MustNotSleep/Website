@@ -101,13 +101,13 @@ div {
 .page_name {
     
     font-size: 3vh;
-    width: 75vw;      
     margin-top: 5vh;
     display: block;
     margin-left: auto;
     margin-right: auto;
 
 }
+
 .small {
  max-width: 20vw;   
 }
@@ -120,6 +120,7 @@ div {
 .center {
  text-align: center;   
 }
+
 div.gallery {
   margin-top: 1vh;
   margin-bottom: 3vh;
