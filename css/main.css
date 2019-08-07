@@ -109,7 +109,7 @@ div {
 @media print {#ghostery-purple-box {display:none !important}}
 
 @media only screen and (min-width: 1000px) {
-              .caption {
+              .course_desc {
                max-width:65%
               }
 }
