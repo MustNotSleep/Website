@@ -145,6 +145,10 @@ div.desc {
     width: 49.99999%;
     margin: 6px 0;
   }
+  .responsive img {
+width: 48%
+
+}
 }
 
 @media only screen and (max-width: 600px) {
@@ -168,5 +172,9 @@ div.desc {
               .responsive {
                     width: 90%;
                   }
+ .responsive img {
+width: 89%
+
+}
 
                     }
