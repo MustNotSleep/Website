@@ -98,6 +98,16 @@ div {
     margin-top: 15vh;
 }
 
+.page_name {
+    
+    font-size: 3vh;
+    width: 85vw;      
+    margin-top: 5vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 .small {
  max-width: 20vw;   
 }
