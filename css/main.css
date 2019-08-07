@@ -132,6 +132,7 @@ div.desc {
 }
 
 @media print {#ghostery-purple-box {display:none !important}}
+@media print {#ghostery-count {display:none !important}}
 
 @media only screen and (min-width: 1000px) {
               .course_desc {
