@@ -1,3 +1,5 @@
+@media print {#ghostery-purple-box {display:none !important}}
+
 body
 {
 background-color: #fff;	
@@ -130,9 +132,6 @@ div.desc {
   float: left;
   width: 24.99999%;
 }
-
-@media print {#ghostery-purple-box {display:none !important}}
-@media print {#ghostery-count {display:none !important}}
 
 @media only screen and (min-width: 1000px) {
               .course_desc {
