@@ -101,7 +101,7 @@ div {
 .page_name {
     
     font-size: 3vh;
-    width: 85vw;      
+    width: 75vw;      
     margin-top: 5vh;
     display: block;
     margin-left: auto;
@@ -157,6 +157,11 @@ div.desc {
                 font-size: 6.5vh;               
                 }
                 
+                .page_name {
+                  font-size: 5vh;
+                  }
+
+
                 img {
                     
                     max-height: 72vh;
