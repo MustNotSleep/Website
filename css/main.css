@@ -122,6 +122,7 @@ div {
 }
 div.gallery {
   margin-top: 1vh;
+  margin-bottom: 3vh;
 }
 
 div.gallery img {
