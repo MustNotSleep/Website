@@ -157,7 +157,7 @@ div.desc {
                max-width:65%
               }
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
                 #name {
                 font-size: 6.5vh;               
                 }
