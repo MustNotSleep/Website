@@ -112,7 +112,7 @@ div {
 
 }
 
-. course_name {
+.course :link {
     padding: 0;
 }
 
