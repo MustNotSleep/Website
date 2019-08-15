@@ -177,7 +177,7 @@ div.desc {
 
                 img {
                     
-                    max-height: 72vh;
+                    max-height: 68vh;
                 }
     
               .responsive {
@@ -199,10 +199,7 @@ div.desc {
                  width: 85vw;
                 }
     
-                .small {
-                     max-width: 65vw;   
-                }
-                
+              
                   .responsive {
                      width: 100%;
                   }
