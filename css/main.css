@@ -1,9 +1,11 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
 #ghostery-purple-box {display:none !important}
 
 body
 {
 background-color: #fff;	
-font-family: "Segoe UI", Arial,sans-serif;
+font-family: Roboto, Corbel, Arial, sans-serif;
 color: #696969;
 }
 
