@@ -1,11 +1,11 @@
-@import 'https://fonts.googleapis.com/css?family=Lato:300,400,500';
-
+@import 'https://fonts.googleapis.com/css?family='Open Sans':300,400,500';
+@import 'https://fonts.googleapis.com/css?family='Roboto':300,400,500';
 #ghostery-purple-box {display:none !important}
 
 body
 {
 background-color: #fff;	
-font-family: Lato, Corbel, Arial, sans-serif;
+font-family: "Open Sans", Roboto, Corbel, Arial, sans-serif;
 color: #696969;
 }
 
