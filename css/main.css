@@ -138,7 +138,7 @@ div.gallery {
 div.gallery img {
   width: auto;
   height: auto;
-  max-height: 10%;
+  max-height: 43vh;
   margin: 0;
 }
 
