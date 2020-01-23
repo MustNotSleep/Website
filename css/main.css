@@ -136,9 +136,9 @@ div.gallery {
 }
 
 div.gallery img {
-  width: 90%;
-  max-height: 10%;
+  width: auto;
   height: auto;
+  max-height: 10%;
   margin: 0;
 }
 
