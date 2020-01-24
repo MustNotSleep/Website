@@ -178,6 +178,11 @@ div.desc {
                     
                     max-height: 68vh;
                 }
+                
+                div.gallery img {
+                      max-width: 18vw;
+                      max-height: 43vh;
+                 }
     
               .responsive {
                 width: 49.99999%;
