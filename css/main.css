@@ -189,7 +189,12 @@ div.desc {
                      max-height: 62vh;
                      max-width: 83vw;
                 }
-                                
+                
+                div.gallery img {
+                      max-width: 35vw;
+                      max-height: 43vh;
+                 }
+    
                 .page_name {
                   font-size: 3vh;
                   }
