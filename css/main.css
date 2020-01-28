@@ -1,24 +1,18 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300';
-
 #ghostery-purple-box {display:none !important}
-
 body
 {
 background-color: #fff;	
 font-family: Roboto, Corbel, Arial, sans-serif;
 color: #696969;
 }
-
 #header {
     text-align: center;
     margin-top: 0.5vh;
 }
-
-
 #name {
      font-size: 5.5vh;   
 }
-
 h1 {
    font-weight: normal;
    font-size: inherit;
@@ -26,8 +20,6 @@ h1 {
     margin-block-end: 0vh;
     
 }
-
-
 h2 {
     font-weight: normal;
     font-size: 1.95vh;
@@ -35,30 +27,23 @@ h2 {
     margin-block-end: 0vh;
     
 }
-
-
 h4 {
     font-weight: normal;
      margin-block-start: 0.25vh;
      margin-block-end: 0vh;
      font-size: 1.55vh;
 }
-
 .bannertabs {
     font-size: 2.3vh;
 }
-
-
 .banner :link, a, a:visited {
     color: #696969;
     padding: 0.5vh 2vh 0.5vh 2vh;
     text-decoration: none;
 }
-
 .banner a:hover {
     color: #191919;
 }
-
 .frame {
     #height: auto;
     #width: auto;
@@ -67,39 +52,33 @@ h4 {
     text-align: center;
     padding: 2vh 2vh 15vh 2vh;
 }
-
 .hero {
     padding: 2vh 2vh 25vh 2vh;
 }
-
 .helper {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
-
-
 img {
     vertical-align: middle;
     max-height: 82vh;
     max-width: 83vw;
     margin: 0vh 1vh 0.5vh 1vh;
 }
-
 div {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-
 .course {
     height: auto;
     width: 75vw;
+    #border: 1px solid red;
     text-align: left;
     margin-top: 3vh;
     margin-bottom:5vh;
 }
-
 .page_name {
     width: 100%;
     text-align: center;
@@ -110,54 +89,43 @@ div {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10vh;
-
 }
-
 .course :link {
     padding: 0;
 }
-
 .small {
  max-width: 20vw;   
 }
-
 .caption {
  font-family: Helvetica, Arial, sans-serif;
  font-size: 1.5vh;
 }
-
 .center {
  text-align: center;   
 }
-
 div.gallery {
   margin-top: 1vh;
   margin-bottom: 3vh;
 }
-
 div.gallery img {
-  width: auto;
+  width: 90%;
+  max-height: 10%;
   height: auto;
-  max-height: 43vh;
   margin: 0;
 }
-
 div.desc {
   padding: 15px;
   text-align: center;
 }
-
 * {
   box-sizing: border-box;
 }
-
 .responsive {
   text-align: center;
   padding: 0 6px;
   float: left;
   width: 24.99999%;
 }
-
 @media only screen and (min-width: 1000px) {
               .course_desc {
                max-width:65%
@@ -172,17 +140,10 @@ div.desc {
                   font-size: 5vh;
                   margin-bottom: 3vh;
                   }
-
-
                 img {
                     
                     max-height: 68vh;
                 }
-                
-                div.gallery img {
-                      max-width: 18vw;
-                      max-height: 43vh;
-                 }
     
               .responsive {
                 width: 49.99999%;
@@ -194,16 +155,10 @@ div.desc {
                      max-height: 62vh;
                      max-width: 83vw;
                 }
-                
-                div.gallery img {
-                      max-width: 35vw;
-                      max-height: 43vh;
-                 }
-    
+                                
                 .page_name {
                   font-size: 3vh;
                   }
-
                 .course {
                  width: 85vw;
                 }
@@ -214,7 +169,6 @@ div.desc {
                   }
     
             }
-
 .clearfix:after {
   content: "";
   display: table;
