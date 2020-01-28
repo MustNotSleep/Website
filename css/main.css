@@ -108,8 +108,9 @@ div.gallery {
   margin-bottom: 3vh;
 }
 div.gallery img {
-  width: 90%;
+  max-width: 90%;
   max-height: 10%;
+  width: auto;
   height: auto;
   margin: 0;
 }
