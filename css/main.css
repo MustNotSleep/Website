@@ -128,14 +128,24 @@ div.desc {
   width: 24.99999%;
 }
 
-.input {
+.container {
  text-align: left;
- margin: 0 0 0 50%;
- font-size: 2vh;
+margin: 0 0 0 40%;
+font-size: 2vh;
+ width: 20%;
+ clear: both;
 }
 
+.container * {
+ padding: 0px 35px 0px 35px;
+ clear: both;
+ width: 100%;
+}
+
+
 button {
- border-radius: 4px;   
+ border-radius: 4px;
+ margin: 0 100%;
 }
 
 @media only screen and (min-width: 1000px) {
