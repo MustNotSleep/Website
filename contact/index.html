@@ -7,34 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
 </head>
 <body>
-    <div id="header">
-        <div id="name">
-            <h1><a href=/>Kevin Rossoll</a></h1>
-        </div>
-        <div class="banner">
-          <a href=/painting/ class="bannertabs">painting</a>
-          <a href=/drawing/ class="bannertabs">drawing</a>
-          <a href=#/contact class="bannertabs">contact</a>
-        </div>
-    </div>
- 
     <div class="frame">
         <form action="https://formspree.io/xwkopbqa" method="POST">
-            <div class="input">
+        <div class = "container">
+         <div class="label">
+              <label>Email:</label>
+         </div>
+          <div class="input">
+                <input type="text" name="_replyto"><br />
+          </div>
               <label>
-                Your email:
-                <input type="text" name="_replyto">
-              </label>
-            </div>
-            <div class="input">
-              <label>
-                Your message:
+                Message:</label>
+                  		<div class="input">
                 <textarea name="message"></textarea>
-              </label>
             </div>
+
               <!-- your other form fields go here -->
-            <div>
+            <div class="            ">
               <button type="submit">Send</button>  
+            </div>
             </div>
         </form>
     </div>
