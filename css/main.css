@@ -128,8 +128,9 @@ div.desc {
   width: 24.99999%;
 }
 
-#contact {
- text-align: left;   
+.input {
+ text-align: left;
+    width: 50%;
 }
 
 @media only screen and (min-width: 1000px) {
