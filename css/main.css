@@ -217,6 +217,13 @@ button {
                  margin 0 0 0 10vw;   
                 }
 
+                input {
+                width: 50vw;
+                }
+
+                button {
+                  28vw;
+                }
 
                 .container {
                     margin: 5% 0 0 15%;
