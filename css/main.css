@@ -192,14 +192,6 @@ button {
               .responsive {
                 width: 49.99999%;
               }
-    
-                input {
-                width: 25vw;
-                }
-
-                button {
-                  width: 18vw;
-                }
 
 }
 @media only screen and (max-width: 500px) {
