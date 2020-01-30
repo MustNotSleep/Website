@@ -143,6 +143,13 @@ font-size: 2vh;
  height: 100%;
 }
 
+input {
+ height: 4vh;
+ width: 8vw;
+ font-size: 2.5vh;
+ color: #686868;   
+}
+
 label {
  margin: 15%
 }
