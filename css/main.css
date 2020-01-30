@@ -208,6 +208,18 @@ button {
                   }
     
             }
+
+
+                .container {
+                    margin: 5% 0 0 15%;
+                    width: 10%;
+                    clear: both;
+                }
+
+                .container .input * {
+                    padding: 0;
+                }
+
 .clearfix:after {
   content: "";
   display: table;
