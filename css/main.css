@@ -136,7 +136,7 @@ font-size: 2vh;
  clear: both;
 }
 
-.container .input {
+.container .input * {
  padding: 0px 35px 0px 35px;
  clear: both;
  width: 100%;
