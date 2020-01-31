@@ -144,7 +144,7 @@ form {
 .container .input * {
  padding: 0 1vw 0 1vw;
  clear: both;
- margin: 1vw;
+ margin: 0.5vh 1vw;
 }
 
 input {
