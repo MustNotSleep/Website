@@ -135,7 +135,7 @@ form {
 .container {
  text-align: left;
  white-space: normal;
- margin: 10vh 20vw 0 0 20vw;
+ margin: 10vh 20vw 0 20vw;
  font-size: 2vh;
  width: auto;
  clear: both;
@@ -231,7 +231,7 @@ button {
               }
     
                 .container {
-                 margin: 10vh 8vw 0 0 8vw;
+                 margin: 10vh 8vw 0 8vw;
                 }
 
 
@@ -243,7 +243,7 @@ button {
                     width: 40vw;
                 }
             .container {
-                 margin: 10vh 4vw 0 0 4vw;
+                 margin: 10vh 4vw 0 4vw;
                 }
 
 
