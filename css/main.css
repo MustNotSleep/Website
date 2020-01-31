@@ -164,7 +164,7 @@ label {
 }
 
 button {
-    border-radius: 1.5vw;
+    border-radius: 6px;
     margin: 0 60%;
     font-size: 2vh;
     color: #686868;                
