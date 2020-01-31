@@ -178,6 +178,10 @@ button {
               .course_desc {
                max-width:65%
               }
+               
+                input {
+                    width: 18vw;
+                }
 
 }
 @media only screen and (max-width: 812px) {
@@ -195,7 +199,7 @@ button {
                 }
                 
                 input {
-                    width: 45vw;
+                    width: 40vw;
                 }
               .responsive {
                 width: 49.99999%;
