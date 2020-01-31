@@ -135,7 +135,7 @@ form {
 .container {
  text-align: left;
  white-space: normal;
- margin: 2vw 0 0 2vw;
+ margin: 10vh 20vw 0 0 20vw;
  font-size: 2vh;
  width: auto;
  clear: both;
@@ -229,6 +229,10 @@ button {
               .responsive {
                 width: 49.99999%;
               }
+    
+                .container {
+                 margin: 10vh 8vw 0 0 8vw;
+                }
 
 
 }
@@ -238,6 +242,10 @@ button {
                 input {
                     width: 40vw;
                 }
+            .container {
+                 margin: 10vh 4vw 0 0 4vw;
+                }
+
 
 }
 
