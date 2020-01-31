@@ -182,7 +182,7 @@ button {
 
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
               .course_desc {
                max-width:65%
               } 
@@ -193,10 +193,14 @@ button {
 }
 
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1024px) {
 
                 input {
                     width:  28vw;
+                }
+    
+                .container {
+                 margin: 10vh 10vw 0 10vw;
                 }
 
 }
