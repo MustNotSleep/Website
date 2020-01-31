@@ -153,6 +153,7 @@ input {
  font-size: 2vh;
  color: #686868;   
  text-align: left;
+ border:1px solid #dcdcdc;
 }
 
 ::placeholder {
@@ -160,9 +161,9 @@ input {
 }
 
 button {
-    display:inline-block;
-    box-shadow:inset 0px 0px 0px -50px #ffffff;
-	background:linear-gradient(to bottom, #ededed 5%, #DDD 100%);
+    	display:inline-block;
+    	box-shadow:inset 0px 0px 0px -50px #ffffff;
+   	background:linear-gradient(to bottom, #ededed 5%, #DDD 100%);
 	background-color:#DDD;
 	border-radius:6px;
 	border:1px solid #dcdcdc;
@@ -170,9 +171,9 @@ button {
 	color:#686868;
 	padding:6px 24px;
 	text-decoration:none;
-    font-size: 2vh;                              
-    height: 3.5vh;
-    text-align: center;
+    	font-size: 2vh;                              
+    	height: 3.5vh;
+    	text-align: center;
 
 }
 
