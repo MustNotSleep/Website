@@ -167,8 +167,7 @@ button {
     margin: 0 60%;
     font-size: 2vh;
     color: #686868;                
-    display: block;                
-    width: 10vw;                
+    display: block;                               
     height: 3.5vh;
     text-align: center;
 
@@ -194,7 +193,10 @@ button {
                     
                     max-height: 68vh;
                 }
-    
+                
+                input {
+                    width: 45vw;
+                }
               .responsive {
                 width: 49.99999%;
               }
@@ -224,7 +226,7 @@ button {
                 }
 
                 input {
-                width: 50vw;
+                    width: 45vw;
                 }
 
                 button {
