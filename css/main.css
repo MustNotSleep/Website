@@ -141,9 +141,9 @@ form {
 }
 
 .container .input * {
- padding: 0px 35px 0px 35px;
+ padding: 0px 1vw 0px 1vw;
  clear: both;
- margin: 1vh;
+ margin: 1vw;
 }
 
 input {
@@ -228,6 +228,12 @@ button {
               .responsive {
                 width: 49.99999%;
               }
+            
+              .container {
+                    margin: 5% 0 0 15%;
+                    width: 10%;
+                    clear: both;
+                }
 
 }
 
@@ -270,11 +276,6 @@ button {
                   font-size: 1.3vh;
                 }
 
-                .container {
-                    margin: 5% 0 0 15%;
-                    width: 10%;
-                    clear: both;
-                }
 
                 .container .input * {
                     padding: 0;
