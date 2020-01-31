@@ -160,7 +160,7 @@ input {
  opacity: 70%;
 }
 
-button {
+.btn {
     	display:inline-block;
     	box-shadow:inset 0px 0px 0px -50px #ffffff;
    	background:linear-gradient(to bottom, #ededed 5%, #DDD 100%);
@@ -177,11 +177,11 @@ button {
 
 }
 
-button:hover {
+.btn:hover {
 	background:linear-gradient(to bottom, #DDD 5%, #ededed 100%);
 	background-color:#DDD;
 }
-button:active {
+.btn:active {
 	position:relative;
 	top:1px;
 }
