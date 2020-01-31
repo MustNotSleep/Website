@@ -129,7 +129,7 @@ div.desc {
 }
 
 form {
- margin 0 0 0 30vw;   
+ 	margin 0 0 0 30vw;   
 }
 
 .container {
@@ -142,22 +142,23 @@ form {
 }
 
 .container .input * {
- padding: 0 1vw 0 1vw;
- clear: both;
- margin: 0.5vh 1vw;
+ 	padding: 0 1vw 0 1vw;
+ 	clear: both;
+ 	margin: 0.5vh 1vw;
 }
 
 input {
- height: 3.5vh;
- width: 18vw;
- font-size: 2vh;
- color: #686868;   
- text-align: left;
- border: 1px solid #DDD;
+ 	height: 3.5vh;
+ 	width: 18vw;
+ 	font-size: 2vh;
+	color: #686868;   
+	text-align: left;
+ 	border: 1px solid #DDD;
+	box-shadow: none;
 }
 
 ::placeholder {
- opacity: 70%;
+ 	opacity: 70%;
 }
 
 .btn {
