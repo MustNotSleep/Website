@@ -147,10 +147,12 @@ form {
 }
 
 input {
- height: 4vh;
- width: 28vw;
+ height: 3.5vh;
+ width: 22vw;
  font-size: 2.5vh;
  color: #686868;   
+ line-height: 2.2vh;
+ text-align: left;
 }
 
 label {
@@ -164,14 +166,14 @@ label {
 button {
     border-radius: 4px;
     margin: 0 60%;
-    height: 4vh;
+    height: 3.5vh;
     width: 8vw;
     font-size: 2.5vh;
     color: #686868;                
     display: block;                
-    width: 20vw;                
-    height: 5vh;
-    line-height: 3vh;
+    width: 15vw;                
+    height: 4vh;
+    line-height: 2.2vh;
     text-align: center;
 
 }
