@@ -199,12 +199,15 @@ button {
 
 .alert-success {
 	opacity:0;
+	color: #00b359;
+	font-weight: 700;
+	position: relative;
+	top: 31vh;
 	animation: fadeOut ease 8s;
 }
 
 .help-block {
-	color: #00b359;
-	font-weight: 700;
+	display:none;
 }
 
 button:active {
