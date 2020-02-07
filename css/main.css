@@ -197,14 +197,21 @@ button {
     	text-align: center;
 }
 
+.alert {
+        font-weight: 700;
+	position: relative;
+	top: 27vh;
+}
+
 .alert-success {
 	opacity:0;
 	height: 0;
 	color: #00b359;
-	font-weight: 700;
-	position: relative;
-	top: 27vh;
 	animation: fadeOut ease 8s;
+}
+
+.alert-danger {
+	color: red;
 }
 
 .help-block {
