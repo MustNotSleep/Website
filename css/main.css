@@ -195,16 +195,14 @@ button {
     	font-size: 2vh;                              
     	height: 3.5vh;
     	text-align: center;
-
 }
 
 .help-block {
 	color: #00b359;
 	font-weight: 700;
-        -webkit-animation-play-state: paused;
 }
 
-.help-block:target {
+.help-block {
 	animation: fadeOut ease 8s;
 }
 
