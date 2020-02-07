@@ -199,10 +199,11 @@ button {
 
 .alert-success {
 	opacity:0;
+	height: 0;
 	color: #00b359;
 	font-weight: 700;
 	position: relative;
-	top: 31vh;
+	top: 28vh;
 	animation: fadeOut ease 8s;
 }
 
@@ -211,11 +212,6 @@ button {
 	   top: -9999px !important;
 	   left: -9999px !important;
 	}
-
-button:active {
-	opacity:0;
-	animation: fadeOut ease 8s;
-}
 
 @keyframes fadeOut {
  0% {
