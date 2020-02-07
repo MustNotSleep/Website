@@ -181,7 +181,7 @@ textarea {
  	opacity: 70%;
 }
 
-.btn {
+button {
     	display:inline-block;
     	box-shadow:inset 0px 0px 0px -50px #ffffff;
    	background:linear-gradient(to bottom, #ededed 5%, #DDD 100%);
@@ -198,11 +198,11 @@ textarea {
 
 }
 
-.btn:hover {
+button:hover {
 	background:linear-gradient(to bottom, #DDD 5%, #ededed 100%);
 	background-color:#DDD;
 }
-.btn:active {
+button:active {
 	position:relative;
 	top:1px;
 }
