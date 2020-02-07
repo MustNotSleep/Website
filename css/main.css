@@ -197,6 +197,11 @@ button {
     	text-align: center;
 }
 
+.alert-success {
+	opacity:0;
+	animation: fadeOut ease 8s;
+}
+
 .help-block {
 	color: #00b359;
 	font-weight: 700;
