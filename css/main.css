@@ -181,7 +181,7 @@ textarea {
  	opacity: 70%;
 }
 
-error {
+.error {
  display:none;
  height: 0;
  position: absolute !important;
