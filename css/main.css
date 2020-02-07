@@ -202,7 +202,8 @@ button {
 	font-weight: 700;
 }
 
-.help-block {
+button:active {
+	opacity:0;
 	animation: fadeOut ease 8s;
 }
 
