@@ -132,11 +132,6 @@ form {
  	margin 0 0 0 30vw;   
 }
 
-.form-control {
-
-	height: 25vh;
-	width: 25vw;
-}
 
 
 .container {
@@ -207,9 +202,6 @@ input {
                max-width:65%
               } 
                
-		.fomr-control {
-			width: 25vw;
-		}
                 input {
                     width:  22vw;
                 }
@@ -232,9 +224,7 @@ input {
 }
 
 @media only screen and (max-width: 900px) {
-		.form-control {
-			width: 30vw;		
-		}
+
                 input {
                     width: 30vw;
                 }
@@ -254,10 +244,7 @@ input {
                     
                     max-height: 68vh;
                 }
-                
-		.form-control {
-			width: 45vw;
-		}	
+	
                 input {
                     width: 35vw;
                 }
@@ -271,10 +258,6 @@ input {
 }
 
 @media only screen and (max-width: 750px) {
-
-		.form-control {
-			width: 65vw;
-		}
 	
                 input {
                     width: 40vw;
@@ -306,11 +289,6 @@ input {
                 form {
                  margin 0 0 0 10vw;   
                 }
-
-		form-control {
-		
-			width: 80vw;
-		}
 	
                 input {
                     width: 45vw;
