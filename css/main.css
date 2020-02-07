@@ -157,12 +157,14 @@ input {
 	text-align: left;
  	border: 1px solid #DDD;
 	box-shadow: none;
+	font-family: Roboto, Corbel, Arial, sans-serif;
 }
 
 textarea {
     width: 25vw;
-    height: 25vh;
+    height: 17vh;
     font-size: 2vh;
+    font-family: Roboto, Corbel, Arial, sans-serif;
 }
 
 ::placeholder {
