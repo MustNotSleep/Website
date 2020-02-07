@@ -4,6 +4,12 @@
     <title>Kevin Rossoll</title>
     <!-- link to main stylesheet -->
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <script src=/js/form.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/formiojs@latest/dist/formio.full.min.css">
+    <script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
+
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">   
 </head>
 <body>
@@ -19,7 +25,14 @@
     </div>
     
    <div class="frame">
-        <form action="https://formspree.io/xwkopbqa" method="POST">
+   <div id="formio">
+       <script type="text/javascript">
+  window.onload = function() {
+    Formio.createForm(document.getElementById('formio'), 'https://lwbmpsqrsjcsyqm.form.io/email');
+  };
+</script>
+                   
+        <!--<form action="https://formspree.io/xwkopbqa" method="POST">
         <div class = "container">
          <div class="label">
               <h3>Subscribe:</h3>
@@ -29,7 +42,8 @@
                 <input type="text" placeholder="Email address" name="_replyto"><br />
               <button type="submit" class="btn">Subscribe</button>  
             </div>
-        </form>
+            </form> -->
+    </div>
     </div>
 </body>
 </html>
