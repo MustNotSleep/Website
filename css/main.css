@@ -153,6 +153,7 @@ input {
  	height: 3.5vh;
  	width: 18vw;
  	font-size: 2vh;
+        margin: 0 0 1vh 0;
 	color: #686868;   
 	text-align: left;
  	border: 1px solid #DDD;
@@ -164,11 +165,16 @@ textarea {
         width: 25vw;
         height: 17vh;
  	font-size: 2vh;
+	margin: 0 0 1vh 0;
 	color: #686868;   
 	text-align: left;
  	border: 1px solid #DDD;
 	box-shadow: none;
     	font-family: Roboto, Corbel, Arial, sans-serif;
+}
+
+.col_form_label {
+	display: none;	
 }
 
 ::placeholder {
