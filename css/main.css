@@ -181,6 +181,14 @@ textarea {
  	opacity: 70%;
 }
 
+error {
+ display:none;
+ height: 0;
+ position: absolute !important;
+ top: -9999px !important;
+ left: -9999px !important;
+}
+
 button {
     	display:inline-block;
     	box-shadow: inset 0px 0px 0px -50px #ffffff;
