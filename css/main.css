@@ -198,7 +198,7 @@ button {
 
 }
 
-.null has-success {
+.help-block {
 	color: #00b359;
 	font-weight: 700;
 	 animation: fadeOut ease 8s;
