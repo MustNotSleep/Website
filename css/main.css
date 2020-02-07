@@ -202,6 +202,9 @@ button {
 	color: #00b359;
 	font-weight: 700;
         -webkit-animation-play-state: paused;
+}
+
+.help-block:target {
 	animation: fadeOut ease 8s;
 }
 
