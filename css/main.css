@@ -159,6 +159,12 @@ input {
 	box-shadow: none;
 }
 
+textarea {
+    width: 25vw;
+    height: 25vh;
+    font-size: 2vh;
+}
+
 ::placeholder {
  	opacity: 70%;
 }
@@ -194,6 +200,9 @@ input {
                 input {
                     width:  18vw;
                 }
+                textarea {
+                    width:  22vw;
+                }
 
 }
 
@@ -205,6 +214,10 @@ input {
                 input {
                     width:  22vw;
                 }
+	
+                textarea {
+                    width:  26vw;
+                }
 }
 
 
@@ -212,6 +225,10 @@ input {
 
                 input {
                     width:  28vw;
+                }
+	
+                textarea {
+                    width:  36vw;
                 }
     
                 .container {
@@ -227,6 +244,10 @@ input {
 
                 input {
                     width: 30vw;
+                }
+	
+                textarea {
+                    width:  38vw;
                 }
 
 }
@@ -248,6 +269,10 @@ input {
                 input {
                     width: 35vw;
                 }
+	
+                textarea {
+                    width:  46vw;
+                }
               .responsive {
                 width: 49.99999%;
               }
@@ -261,6 +286,10 @@ input {
 	
                 input {
                     width: 40vw;
+                }
+	
+                textarea {
+                    width:  55vw;
                 }
             .container {
                  margin: 10vh 4vw 0 4vw;
@@ -294,6 +323,10 @@ input {
                     width: 45vw;
                 }
 
+                textarea {
+                    width:  65vw;
+                }
+	
                 button {
 		  width: 30%
                 }
