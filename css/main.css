@@ -207,8 +207,10 @@ button {
 }
 
 .help-block {
-	display:none;
-}
+	   position: absolute !important;
+	   top: -9999px !important;
+	   left: -9999px !important;
+	}
 
 button:active {
 	opacity:0;
@@ -221,6 +223,9 @@ button:active {
 	}
  1% {
     opacity:1;
+  }
+80% {
+    opacity: 1;
   }
   100% {
     opacity:0;
