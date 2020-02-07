@@ -201,7 +201,17 @@ button {
 .null has-success {
 	color: #00b359;
 	font-weight: 700;
+	 animation: fadeOut ease 8s;
 }
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
 
 button:hover {
 	background:linear-gradient(to bottom, #DDD 5%, #ededed 100%);
