@@ -201,8 +201,10 @@ button {
 .help-block {
 	color: #00b359;
 	font-weight: 700;
-	 animation: fadeOut ease 8s;
+        -webkit-animation-play-state: paused;
+	animation: fadeOut ease 8s;
 }
+
 @keyframes fadeOut {
   0% {
     opacity:1;
