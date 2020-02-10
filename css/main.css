@@ -165,7 +165,7 @@ textarea {
         width: 25vw;
         height: 17vh;
  	font-size: 2vh;
-	margin: 0 0 1vh 0;
+	margin: 0 0 0.5vh 0;
 	color: #686868;   
 	text-align: left;
  	border: 1px solid #DDD;
@@ -194,7 +194,7 @@ button {
     	box-shadow: inset 0px 0px 0px -50px #ffffff;
    	background: linear-gradient(to bottom, #ededed 5%, #DDD 100%);
 	background-color: #DDD;
-	border-radius: 6px;
+	border-radius: 0.6vh;
 	border: 1px solid #dcdcdc;
 	cursor: pointer;
 	color: #686868;
