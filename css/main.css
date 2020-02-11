@@ -207,14 +207,13 @@ button {
 
 .alert {
 	height: 0;
-        font-weight: 700;
 	position: relative;
 }
 
 .alert-success {
 	opacity:0;
 	#color: #006600;
-	animation: fadeOut ease 4.5s;
+	animation: fadeOut ease 5s;
 }
 
 .alert-danger {
