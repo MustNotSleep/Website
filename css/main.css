@@ -213,8 +213,8 @@ button {
 
 .alert-success {
 	opacity:0;
-	color: #00b359;
-	animation: fadeOut ease 8s;
+	#color: #006600;
+	animation: fadeOut ease 4.5s;
 }
 
 .alert-danger {
