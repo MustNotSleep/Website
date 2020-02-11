@@ -32,6 +32,10 @@
        <script type="text/javascript">
         window.onload = function() {
         Formio.createForm(document.getElementById('formio'), 'https://lwbmpsqrsjcsyqm.form.io/unsubscribe');
+           form.on('submit', (submission) => {
+           form.reset();
+  });
+                           
          };
 </script>
                    
