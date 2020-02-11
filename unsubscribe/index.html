@@ -7,7 +7,13 @@
     <link rel="stylesheet" type="text/css" href="./unsubscribe.css">
     <script src=/js/form.js"></script>
     <script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
-
+    <script type='text/javascript'>
+      window.onload = function() {
+                Formio.createForm(document.getElementById('formio'), 'https://lwbmpsqrsjcsyqm.form.io/unsubscribe').then(function(form) {
+                                     form.on('submit', form.reset();
+                                     )};
+      };
+    </script>       
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 <body>
@@ -28,16 +34,7 @@
     <h3>Unsubscribe</h3>
             <p>Unsubscribe from all future communications</p>      
    </div>
-   <div id="formio">
-       <script type="text/javascript">
-        window.onload = function() {
-        Formio.createForm(document.getElementById('formio'), 'https://lwbmpsqrsjcsyqm.form.io/unsubscribe').then(function(form) {
-                                     form.on('submit', form.reset();
-                                     )};
-         };
-</script>
-                   
-    </div>
+   <div id="formio"></div>
     </div>
     </div>
 </body>
