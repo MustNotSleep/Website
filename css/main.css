@@ -156,7 +156,7 @@ input {
         margin: 0 0 1vh 0;
 	color: #686868;   
 	text-align: left;
- 	border: 1px solid #DDD;
+ 	border: 0.05vh solid #DDD;
 	box-shadow: none;
 	font-family: Roboto, Corbel, Arial, sans-serif;
 }
@@ -168,7 +168,7 @@ textarea {
 	margin: 0 0 0.5vh 0;
 	color: #686868;   
 	text-align: left;
- 	border: 1px solid #DDD;
+ 	border: 0.05vh solid #DDD;
 	box-shadow: none;
     	font-family: Roboto, Corbel, Arial, sans-serif;
 }
