@@ -154,6 +154,7 @@ input {
  	width: 18vw;
  	font-size: 2vh;
         margin: 0 0 1vh 0;
+	padding-left: 0.5vh;
 	color: #686868;   
 	text-align: left;
  	border: 0.05vh solid #DDD;
@@ -166,6 +167,7 @@ textarea {
         height: 17vh;
  	font-size: 2vh;
 	margin: 0 0 0.5vh 0;
+	padding-left: 0.5vh;
 	color: #686868;   
 	text-align: left;
  	border: 0.05vh solid #DDD;
