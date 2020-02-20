@@ -7,7 +7,11 @@
     <link rel="stylesheet" type="text/css" href="./subscribe.css">
     <script src=/js/form.js"></script>
     <script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
-
+   <script type='text/javascript'>
+      window.onload = function() {
+                Formio.createForm(document.getElementById('formio'), 'https://lwbmpsqrsjcsyqm.form.io/subscribe');
+      };
+    </script>       
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 <body>
@@ -27,15 +31,8 @@
    <div class="label">
     <h3>Subscribe</h3>
             <p>Subscribe for updates</p>      
-   </div>
-   <div id="formio">
-       <script type="text/javascript">
-        window.onload = function() {
-        Formio.createForm(document.getElementById('formio'), 'https://lwbmpsqrsjcsyqm.form.io/subscribe');
-         };
-</script>
-                   
-    </div>
+   </div>              
+   <div id="formio"></div>
     </div>
     </div>
 </body>
