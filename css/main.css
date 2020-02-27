@@ -149,6 +149,10 @@ form {
  	margin: 0.5vh 1vw;
 }
 
+.submitElement {
+ display: flex;	
+}
+
 input {
  	height: 3.5vh;
  	width: 18vw;
@@ -192,7 +196,6 @@ textarea {
 }
 
 button {
-    	display:inline-block;
     	box-shadow: inset 0px 0px 0px -50px #ffffff;
    	background: linear-gradient(to bottom, #ededed 5%, #DDD 100%);
 	background-color: #DDD;
