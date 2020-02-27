@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kevin Rossoll</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <script type="text/javascript" src="./random.js"></script>
+        <style>
+        img {
+         max-height: 50vh;
+         margin-top: 5vh;
+        }
+        
+        h2 {
+        font-size: 1.5vw;
+        margin-block-start: 10vh;
+        margin-block-end: 1.5vh;
+        }
+        
+        @media only screen and (max-width: 700px) {
+                h2 {
+                margin-block-start: 6vh;
+                font-size: 2.5vw;               
+                }
+            }
+        
+         @media only screen and (max-width: 500px) {
+                h2 {
+                    margin-block-start: 6vh;
+                    font-size: 4.5vw;               
+                }
+            }
+    </style>
+</head>
+<body onLoad="randomImage()">
+  
+        <div id="header">
+        <div id="name">
+            <h1><a href=/>Kevin Rossoll</a></h1>
+        </div>
+        <div class="banner">
+          <a href=/painting/ class="bannertabs">painting</a>
+          <a href=/drawing/ class="bannertabs">drawing</a>
+          <a href=/contact class="bannertabs">contact</a>
+        </div>
+    </div>
+    
+   <div class ="frame">
+        <h2>Your message was received!</h2>
+        <img id="randImg" src="" />
+        <p class="caption" id="randCaption"></p>
+        <!-- <p class="caption">Self-portrait, 2019. 12"x16"</p> -->
+    </div>
+    </div>
+</body>
+</html>
