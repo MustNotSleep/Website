@@ -5,13 +5,6 @@
     <!-- link to main stylesheet -->
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="./subscribe.css">
-    <script src=/js/form.js"></script>
-    <script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
-   <script type='text/javascript'>
-      window.onload = function() {
-                Formio.createForm(document.getElementById('formio'), 'https://lwbmpsqrsjcsyqm.form.io/subscribe');
-      };
-    </script>       
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 <body>
@@ -22,7 +15,7 @@
         <div class="banner">
           <a href=/painting/ class="bannertabs">painting</a>
           <a href=/drawing/ class="bannertabs">drawing</a>
-          <a href=/contact class="bannertabs">contact</a>
+          <a href=/contact/ class="bannertabs">contact</a>
         </div>
     </div>
     
@@ -31,8 +24,16 @@
    <div class="label">
     <h3>Subscribe</h3>
             <p>Subscribe for updates</p>      
-   </div>              
-   <div id="formio"></div>
+   </div>
+   <script type="text/javascript">var submitted=false;</script>
+   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/submitted/';}"></iframe>
+
+   <form action="https://docs.google.com/forms/d/e/1FAIpQLScQQJQntVnEIqWTB4ZMtOCpcjp3o0lcPgkaTzp1bs9cB5XMMQ/formResponse" method="POST"  target="hidden_iframe" onsubmit="submitted=true;">
+      <label></label>
+      <input type="email" placeholder="Email" name="emailAddress" class="submitElement">
+ 
+       <button type="submit" class="submitElement">Submit</button>
+      </form>
     </div>
     </div>
 </body>
