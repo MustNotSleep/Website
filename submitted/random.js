@@ -5,5 +5,5 @@ function randomImage() {
   var elem = document.getElementById("randImg");
   var captions = ["test1", "test2", "test3", "test4", "test5", "test6"]
   document.getElementById("randImg").src = "/images/random/".concat(randomStr.concat(".jpg"));
-  document.getElementById("randCaption").innerHTML = captions[randomNum];
+  document.getElementById("randCaption").innerHTML = captions[randomNum-1];
 }
