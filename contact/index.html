@@ -4,14 +4,7 @@
     <title>Kevin Rossoll</title>
     <!-- link to main stylesheet -->
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="./contact.css">
-    <script src=/js/form.js"></script>
-    <script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
-   <script type='text/javascript'>
-      window.onload = function() {
-                Formio.createForm(document.getElementById('formio'), 'https://lwbmpsqrsjcsyqm.form.io/sendmessage');
-      };
-    </script>       
+    <link rel="stylesheet" type="text/css" href="./subscribe.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 <body>
@@ -29,10 +22,21 @@
    <div class="frame">
    <div class="container">
    <div class="label">
-    <h3>Contact</h3>
-            <p></p>      
+    <h3>Subscribe</h3>
+            <p>Subscribe for updates</p>      
    </div>
-   <div id="formio"></div>
+   <script type="text/javascript">var submitted=false;</script>
+   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/submitted/';}"></iframe>
+
+   <form action="https://docs.google.com/forms/d/e/1FAIpQLSce7dnGFsh81qSR2XmRO2u_zuUD7pX8iSOsWO3sC-xr1nr7SA/formResponse" method="POST"  target="hidden_iframe" onsubmit="submitted=true;">
+      <label>Email</label>
+      <input type="email" placeholder="Email" name="emailAddress" class="submitElement">
+      
+      <label>Message</label>
+      <textarea rows="5" placeholder="Message" name="entry.435101920" class="submitElement"></textarea>
+       
+       <button type="submit" class="submitElement">Submit</button>
+      </form>
     </div>
     </div>
 </body>
