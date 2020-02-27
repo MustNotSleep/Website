@@ -1,8 +1,8 @@
 function loadNav() {
 
-  var pages [ {"name":"painting", "url":"/painting/" } ];
+  var pages ["painting"];
   
-  document.getElementById("page1").href = pages.url[0]
-  document.getElementById("page1").innerHTML = pages.name[0];
+  document.getElementById("page1").href = "/".concat(pages.[0].concat("/")
+  document.getElementById("page1").innerHTML = pages.[0];
 }
 
