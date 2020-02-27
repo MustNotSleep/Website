@@ -11,18 +11,19 @@
       window.onload = function() {
                 Formio.createForm(document.getElementById('formio'), 'https://lwbmpsqrsjcsyqm.form.io/sendmessage');
       };
-    </script>       
+    </script>  
+    <script src="/js/navigation.js"></script>                                                               
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
-<body>
+<body onLoad="loadNav">
         <div id="header">
         <div id="name">
             <h1><a href=/>Kevin Rossoll</a></h1>
         </div>
         <div class="banner">
-          <a href=/painting/ class="bannertabs">painting</a>
-          <a href=/drawing/ class="bannertabs">drawing</a>
-          <a href=/contact/ class="bannertabs">contact</a>
+          <a href="" class="bannertabs" id="page1"></a>
+          <a href="" class="bannertabs" id="page2"></a>
+          <a href="" class="bannertabs" id="page3"></a>
         </div>
     </div>
     
