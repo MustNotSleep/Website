@@ -4,14 +4,7 @@
     <title>Kevin Rossoll</title>
     <!-- link to main stylesheet -->
     <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="./unsubscribe.css">
-    <script src=/js/form.js"></script>
-    <script src="https://unpkg.com/formiojs@latest/dist/formio.full.min.js"></script>
-    <script type='text/javascript'>
-      window.onload = function() {
-                Formio.createForm(document.getElementById('formio'), 'https://lwbmpsqrsjcsyqm.form.io/unsubscribe');
-      };
-    </script>       
+    <link rel="stylesheet" type="text/css" href="./subscribe.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 </head>
 <body>
@@ -22,7 +15,7 @@
         <div class="banner">
           <a href=/painting/ class="bannertabs">painting</a>
           <a href=/drawing/ class="bannertabs">drawing</a>
-          <a href=/contact class="bannertabs">contact</a>
+          <a href=/contact/ class="bannertabs">contact</a>
         </div>
     </div>
     
@@ -32,7 +25,15 @@
     <h3>Unsubscribe</h3>
             <p>Unsubscribe from all future communications</p>      
    </div>
-   <div id="formio"></div>
+   <script type="text/javascript">var submitted=false;</script>
+   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/submitted/';}"></iframe>
+
+   <form action="https://docs.google.com/forms/d/e/1FAIpQLSezAVHyrSp-xZhsRJK9HyE-FMy2LP5NCmJTuf5eoiF9fpjKzg/formResponse" method="POST"  target="hidden_iframe" onsubmit="submitted=true;">
+      <label></label>
+      <input type="email" placeholder="Email" name="emailAddress" class="submitElement">
+ 
+       <button type="submit" class="submitElement">Submit</button>
+      </form>
     </div>
     </div>
 </body>
