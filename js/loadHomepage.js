@@ -2,9 +2,9 @@ window.addEventListener('load', loadPage, false);
 
 function loadPage() {
 
-  var images = ["/images/self-portrait.JPG", "/images/self-portrait.JPG"];
-  var captions = ["Self-portrait, 2019", "test2"];
-  var alt = ["Self-portrait", "test2"];
+  var images = ["/images/self-portrait.JPG"];
+  var captions = ["Self-portrait, 2019"];
+  var alt = ["Self-portrait"];
   
   var elem = document.getElementById("img1");
   
