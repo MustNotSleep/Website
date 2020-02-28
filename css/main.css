@@ -8,7 +8,7 @@ color: #696969;
 }
 
 html {
-  overflow-y: scroll;
+  margin-right: calc(-1 * (100vw - 100%));
 }
 
 
