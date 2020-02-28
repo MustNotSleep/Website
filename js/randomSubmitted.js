@@ -1,4 +1,4 @@
-
+window.addEventListener('load', randomImage, false);
 
 function randomImage() {
 
