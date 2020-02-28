@@ -7,7 +7,7 @@ function randomImage() {
   ];
   
   
-  var randomNum = Math.floor(Math.random()*images.length)+1;
+  var randomNum = Math.floor(Math.random()*images.length);
   document.getElementById("randImg").src = images[randomNum][0];
   document.getElementById("randCaption").innerHTML =images[randomNum][1];
   document.getElementById("randImg").alt = images[randomNum][2];
