@@ -10,7 +10,8 @@ function loadPage() {
   
   
   for (i = 0; i < images.length; i++) {
-    document.getElementById("img1").src = images[i];
-   document.getElementById("capt1").innerHTML = captions[i];
+   document.getElementById("img".concat((i+1).toString())).src = images[i];
+   document.getElementById("img".concat((i+1).toString())).alt = alt[i];
+   document.getElementById("capt".concat((i+1).toString())).innerHTML = captions[i];
 }
 }
