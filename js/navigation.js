@@ -4,13 +4,12 @@ function loadNav() {
 
   var pages = ["painting", "drawing", "contact"];
   
-  document.getElementById("page1").href = "/".concat(pages[0].concat("/"));
-  document.getElementById("page1").innerHTML = pages[0];
   
-  document.getElementById("page2").href = "/".concat(pages[1].concat("/"));
-  document.getElementById("page2").innerHTML = pages[1];
+  for (i = 0; i < pages.length; i++) {
+    
+  document.getElementById("page".concat((i+1).toString())).href = "/".concat(pages[i].concat("/"));
+  document.getElementById("page".concat((i+1).toString())).innerHTML = pages[i];
   
-  document.getElementById("page3").href = "/".concat(pages[2].concat("/"));
-  document.getElementById("page3").innerHTML = pages[2];
+  }
 }
 
