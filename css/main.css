@@ -71,9 +71,9 @@ h4 {
 }
 img {
     vertical-align: middle;
-    max-height: 80vh;
+    max-height: 81vh;
     max-width: 83vw;
-    margin: 1.3vh 1vh 0.5vh 1vh;
+    margin: 1vh 1vh 0.5vh 1vh;
 }
 div {
   display: block;
@@ -333,7 +333,7 @@ button:active {
                   }
                 img {
                     
-                    max-height: 66vh;
+                    max-height: 67vh;
                 }
 	
                 input {
@@ -369,7 +369,7 @@ button:active {
 @media only screen and (max-width: 500px) {
                                 
                img {
-                     max-height: 60vh;
+                     max-height: 61vh;
                      max-width: 83vw;
                 }
                                 
