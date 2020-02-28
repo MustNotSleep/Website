@@ -13,3 +13,4 @@ function loadPage() {
     document.getElementById("img".concat(i.toStr())).src = images[i];
    document.getElementById("img".concat(i.toStr())).innerHTML = captions[i];
 }
+}
