@@ -9,7 +9,7 @@ color: #696969;
 
 html {
   margin-right: calc(-1 * (100vw - 100%));
-  width:100%;
+  overflow-x: hidden;
 }
 
 
