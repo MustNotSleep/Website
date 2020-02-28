@@ -6,7 +6,7 @@ function loadNav() {
   var pages = [
     ["painting", "/painting/"], 
     ["drawing", "/drawing/"],
-    ["drawing", "/drawing/"],
+    ["draw", "/drawing/"],
     ["contact", "/contact/"]
   ];
   
