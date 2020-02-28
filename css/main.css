@@ -15,6 +15,7 @@ html {
 #header {
     text-align: center;
     margin-top: 0.5vh;
+    height: 10vh;
 }
 
 #name {
