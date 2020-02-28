@@ -1,3 +1,5 @@
+window.addEventListener('load', loadNav, false);
+
 function loadNav() {
 
   var pages = ["painting", "drawing", "contact"];
