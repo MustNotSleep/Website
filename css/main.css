@@ -52,9 +52,6 @@ h4 {
 }
 .frame {
     max-height: 70vh;
-    #width: auto;
-    #border: 1px solid red;
-    white-space: nowrap;
     text-align: center;
     padding: 2vh 2vh 15vh 2vh;
 }
