@@ -21,8 +21,8 @@ html {
      font-size: 5.5vh;   
 }
 
-a:empty {
-	display:none;	
+.banner a:empty {
+	padding: 0.5vh 0;	
 }
 
 h1 {
