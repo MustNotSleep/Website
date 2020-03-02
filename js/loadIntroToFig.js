@@ -34,5 +34,10 @@ function loadIntroToFigure() {
    //set alt text
    document.getElementById("if_img".concat((i+1).toString())).alt = images[i][1];
     
+   for (i = images.length; i < 26; i++) {
+  
+    document.getElementById("gallery".concat((i+1).toString())).style.padding = "0";
+    document.getElementById("galery".concat((i+1).toString())).style.height = "0";
+  }
   }
 }
