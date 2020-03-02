@@ -20,5 +20,9 @@ function loadPage() {
     
   }
   
-  document.getElementById("frame2").setAttribute("padding", 0);
+  for (i = images.length; i < 5; i++) {
+  
+    document.getElementById("frame2".concat((i).toString())).style.padding = "0";
+    
+  }
 }
