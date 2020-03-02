@@ -23,8 +23,7 @@ function loadIntroToFigure() {
     ["/images/intro_to_fig_draw/12.jpeg", "Figure drawing"],
     ["/images/intro_to_fig_draw/11.jpeg", "Figure drawing"],
     ["/images/intro_to_fig_draw/10.jpeg", "Figure drawing"],
-    ["/images/intro_to_fig_draw/8.jpeg", "Figure drawing"],
-    ["/images/intro_to_fig_draw/20.jpeg", "Figure drawing"]
+    ["/images/intro_to_fig_draw/8.jpeg", "Figure drawing"]
   ];
   
   for (i = 0; i < images.length; i++) {
