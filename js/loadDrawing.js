@@ -1,5 +1,4 @@
 window.addEventListener('load', loadPage, false);
-window.addEventListener('load', createPage, false);
 
   //image objects consisting of image location, caption, and alt text
   var images = [
