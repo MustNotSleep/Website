@@ -1,4 +1,5 @@
 window.addEventListener('load', loadPage, false);
+window.addEventListener('load', createPage, false);
 
 function loadPage() {
 
