@@ -139,6 +139,20 @@ div.desc {
   text-align: center;
   float: left;
   width: 24.99999%;
+	
+}
+
+div.responsive {
+  margin-top: 1vh;
+  margin-bottom: 3vh;
+}
+
+div.responsive img {
+  max-width: 90vh;
+  max-height: 45vh;
+  width: auto;
+  height: auto;
+  margin: 0;
 }
 
 form {
