@@ -21,6 +21,11 @@ function loadClassicalFigure() {
   }
 }
 
+    for (i = images.length; i < 21; i++) {
+    document.getElementById("cf_res".concat((i+1).toString())).style.display = "none";
+    document.getElementById("cf_img".concat((i+1).toString())).style.display = "none";
+    document.getElementById("cf_gal".concat((i+1).toString())).style.display = "none";
+  }
 
 function loadAtelierDrawing() {
 
@@ -41,7 +46,11 @@ function loadAtelierDrawing() {
   }
 }
 
-
+    for (i = images.length; i < 21; i++) {
+    document.getElementById("ad_res".concat((i+1).toString())).style.display = "none";
+    document.getElementById("ad_img".concat((i+1).toString())).style.display = "none";
+    document.getElementById("ad_gal".concat((i+1).toString())).style.display = "none";
+  }
 
 function loadIntroToFigure() {
 
@@ -65,5 +74,11 @@ function loadIntroToFigure() {
    //set alt text
    document.getElementById("if_img".concat((i+1).toString())).alt = images[i][1];
     
+  }
+  
+      for (i = images.length; i < 21; i++) {
+    document.getElementById("if_res".concat((i+1).toString())).style.display = "none";
+    document.getElementById("if_img".concat((i+1).toString())).style.display = "none";
+    document.getElementById("if_gal".concat((i+1).toString())).style.display = "none";
   }
 }
