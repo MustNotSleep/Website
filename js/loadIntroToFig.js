@@ -37,7 +37,7 @@ function loadIntroToFigure() {
   }
   
    for (i = images.length; i < 26; i++) {
-  
+    document.getElementById("if_img".concat((i+1).toString())).style.display = "none";
     document.getElementById("if_gal".concat((i+1).toString())).style.padding = "0";
     document.getElementById("if_gal".concat((i+1).toString())).style.height = "0";
   }
