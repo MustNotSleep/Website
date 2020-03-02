@@ -27,9 +27,3 @@ function loadPage() {
   }
   
 }
-
-
-function createPage(imageURL) {
-  document.getElementById("url1").href = images[0][0];
-  
-}
