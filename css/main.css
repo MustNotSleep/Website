@@ -392,7 +392,11 @@ button:active {
                   .responsive {
                      width: 100%;
                   }
-
+    
+	        div.gallery img {
+			  max-width: 83vw;
+	        }
+	
                 form {
                  margin 0 0 0 10vw;   
                 }
