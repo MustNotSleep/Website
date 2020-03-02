@@ -22,6 +22,6 @@ function loadPage() {
 
 
 function testFunction(imageURL) {
-  document.getElementById("link1").href = imageURL;
+  document.getElementById("url1").href = imageURL;
   
 }
