@@ -20,5 +20,5 @@ function loadPage() {
     
   }
   
-  document.getdocument.getElementById("frame2").setAttribute("padding", 0);
+  document.getElementById("frame2").setAttribute("padding", 0);
 }
