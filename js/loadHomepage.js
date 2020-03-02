@@ -15,4 +15,10 @@ function loadPage() {
    //set alt text
    document.getElementById("img".concat((i+1).toString())).alt = images[i][2];
 }
+  
+   for (i = images.length; i < 99; i++) {
+  
+    document.getElementById("frame".concat((i+1).toString())).style.padding = "0";
+    
+  }
 }
