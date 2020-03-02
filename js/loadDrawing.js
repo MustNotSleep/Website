@@ -18,3 +18,10 @@ function loadPage() {
    document.getElementById("img".concat((i+1).toString())).alt = images[i][2];
 }
 }
+
+
+
+function testFunction(imageURL) {
+  document.getElementById("link1").href = imageURL;
+  
+}
