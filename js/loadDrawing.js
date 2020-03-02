@@ -19,9 +19,13 @@ function loadPage() {
    document.getElementById("capt".concat((i+1).toString())).innerHTML = images[i][1];
    //set alt text
    document.getElementById("img".concat((i+1).toString())).alt = images[i][2];
+    
+    
+  for (i = images.length; i < 10; i++) {
+    document.getdocument.getElementById("frame".concat((i+1).toString())).setAttribute("padding", 0);
+  }
 }
 }
-
 
 
 function createPage(imageURL) {
