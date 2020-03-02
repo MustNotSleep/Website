@@ -36,8 +36,8 @@ function loadIntroToFigure() {
     
    for (i = images.length; i < 26; i++) {
   
-    document.getElementById("gallery".concat((i+1).toString())).style.padding = "0";
-    document.getElementById("galery".concat((i+1).toString())).style.height = "0";
+    document.getElementById("if_gal".concat((i+1).toString())).style.padding = "0";
+    document.getElementById("if_gal".concat((i+1).toString())).style.height = "0";
   }
   }
 }
