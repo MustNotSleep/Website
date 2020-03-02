@@ -1,8 +1,6 @@
 window.addEventListener('load', loadPage, false);
 window.addEventListener('load', createPage, false);
 
-function loadPage() {
-
   //image objects consisting of image location, caption, and alt text
   var images = [
     ["/images/self-portrait/self-portrait-2019.PNG", "Self-portrait", "Self portrait drawing"],
@@ -10,6 +8,10 @@ function loadPage() {
     ["/images/self-portrait/self-portrait-2019.PNG", "Self-portrait3", "Self portrait drawing3"]
   ];
   
+
+
+function loadPage() {
+
   for (i = 0; i < images.length; i++) {
    //set image location
    document.getElementById("img".concat((i+1).toString())).src = images[i][0];
