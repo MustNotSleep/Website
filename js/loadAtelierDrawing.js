@@ -1,7 +1,7 @@
 window.addEventListener('load', loadAtelierDrawing, false);
 
 
-function loadClassicalFigure() {
+function loadAtelierDrawing() {
 
   //Drawing the Classical Figure
   //image objects consisting of image location and alt text (no caption)
