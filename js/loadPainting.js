@@ -17,7 +17,8 @@ function loadPage() {
 }
     for (i = images.length; i < 99; i++) {
   
-    document.getElementById("frame".concat((i+1).toString())).style.padding = "0";
+      document.getElementById("frame".concat((i+1).toString())).style.padding = "0";
+      document.getElementById("frame".concat((i+1).toString())).style.height = "0";
     
   }
 }
