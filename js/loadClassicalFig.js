@@ -18,10 +18,10 @@ function loadClassicalFigure() {
    document.getElementById("cf_img".concat((i+1).toString())).alt = images[i][1];
     
   }
-  
-    for (i = images.length; i < 26; i++) {
+ 
+    for (i = images.length; i < 21; i++) {
+    document.getElementById("cf_res".concat((i+1).toString())).style.display = "none";
     document.getElementById("cf_img".concat((i+1).toString())).style.display = "none";
-    document.getElementById("cf_gal".concat((i+1).toString())).style.padding = "0";
-    document.getElementById("cf_gal".concat((i+1).toString())).style.height = "0";
+    document.getElementById("cf_gal".concat((i+1).toString())).style.display = "none";
   }
 }
