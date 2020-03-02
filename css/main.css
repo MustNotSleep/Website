@@ -122,7 +122,7 @@ div.gallery {
   margin-bottom: 3vh;
 }
 div.gallery img {
-  max-width: 90vh;
+  max-width: 18vw;
   max-height: 45vh;
   width: auto;
   height: auto;
@@ -351,6 +351,10 @@ button:active {
                 width: 49.99999%;
               }
     
+	       div.gallery img {
+			  max-width: 36vw;
+	       }
+	
                 .container {
                  margin: 10vh 8vw 0 8vw;
                 }
