@@ -118,8 +118,8 @@ div.gallery {
   margin-bottom: 3vh;
 }
 div.gallery img {
-  max-width: 90%;
-  max-height: 10%;
+  max-width: 90vh;
+  max-height: 45vh;
   width: auto;
   height: auto;
   margin: 0;
