@@ -307,7 +307,11 @@ button:active {
                 textarea {
                     width:  36vw;
                 }
-    
+	
+    		.caption {
+		 font-size: 1.8vh;	
+	        }
+	
                 .container {
                  margin: 10vh 10vw 0 10vw;
                 }
@@ -357,9 +361,7 @@ button:active {
 	       div.gallery img {
 			  max-width: 36vw;
 	       }
-			.caption {
-		 font-size: 1.5vh;	
-	        }
+
                 .container {
                  margin: 10vh 8vw 0 8vw;
                 }
