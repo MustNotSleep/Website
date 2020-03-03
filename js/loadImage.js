@@ -1,4 +1,4 @@
-window.addEventListener('load', loadPage("/images/intro_to_fig_draw/2.jpeg", "Still life", "Still life painting"), false);
+window.addEventListener('load', loadPage('/images/intro_to_fig_draw/2.jpeg', 'Still life', 'Still life painting'), false);
 
 function loadPage(url, caption, alt_text) {
 
