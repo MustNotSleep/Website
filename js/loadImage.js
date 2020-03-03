@@ -1,10 +1,10 @@
-window.addEventListener('load', loadPage, false);
+window.addEventListener('load', loadPage("/images/25BFF15E-EBE2-493F-B200-2BF65D27AA2B.jpeg", "Still life", "Still life painting"), false);
 
-function loadPage() {
+function loadPage(url, caption, alt_text) {
 
   //image objects consisting of image location, caption, and alt text
   var images = [
-    ["/images/25BFF15E-EBE2-493F-B200-2BF65D27AA2B.jpeg", "Still life", "Still life painting"]
+    [url, caption, alt_text]
   ];
   
   for (i = 0; i < images.length; i++) {
