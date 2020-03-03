@@ -4,10 +4,10 @@ function loadPage(url, caption, alt_text) {
 
  
    //set image location
-   document.getElementById("img".concat((i+1).toString())).src = url;
+   document.getElementById("img1").src = url;
    //set caption
-   document.getElementById("capt".concat((i+1).toString())).innerHTML = caption;
+   document.getElementById("capt1").innerHTML = caption;
    //set alt text
-   document.getElementById("img".concat((i+1).toString())).alt = alt_text;
+   document.getElementById("img1").alt = alt_text;
 
 }
