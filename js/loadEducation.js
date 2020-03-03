@@ -1,7 +1,6 @@
 window.addEventListener('load', loadClassicalFigure, false);
 window.addEventListener('load', loadAtelierDrawing, false);
 window.addEventListener('load', loadIntroToFigure, false);
-window.addEventListener('load', hideCounter, false);
 
 function loadClassicalFigure() {
 
@@ -20,7 +19,7 @@ function loadClassicalFigure() {
    document.getElementById("cf_img".concat((i+1).toString())).alt = images[i][1];
     
   }
-    for (i = images.length; i < 21; i++) {
+    for (i = images.length; i < 20; i++) {
     document.getElementById("cf_res".concat((i+1).toString())).style.display = "none";
     document.getElementById("cf_img".concat((i+1).toString())).style.display = "none";
     document.getElementById("cf_gal".concat((i+1).toString())).style.display = "none";
@@ -45,7 +44,7 @@ function loadAtelierDrawing() {
     
   }
 
-    for (i = images.length; i < 21; i++) {
+    for (i = images.length; i < 20; i++) {
     document.getElementById("ad_res".concat((i+1).toString())).style.display = "none";
     document.getElementById("ad_img".concat((i+1).toString())).style.display = "none";
     document.getElementById("ad_gal".concat((i+1).toString())).style.display = "none";
@@ -76,13 +75,9 @@ function loadIntroToFigure() {
     
   }
   
-      for (i = images.length; i < 21; i++) {
+      for (i = images.length; i < 20; i++) {
     document.getElementById("if_res".concat((i+1).toString())).style.display = "none";
     document.getElementById("if_img".concat((i+1).toString())).style.display = "none";
     document.getElementById("if_gal".concat((i+1).toString())).style.display = "none";
-  }
-  
-  function hideCounter() {
-     document.getElementById("counter").style.display = "none"; 
   }
 }
