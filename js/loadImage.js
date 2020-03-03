@@ -1,5 +1,5 @@
   
-window.addEventListener('load', loadPage(), false);
+window.addEventListener('load', loadPage("/images/atelier_drawing/1.jpeg", "test3", "test"), false);
 
 function loadPage(p1, p2, p3) {
 
@@ -16,3 +16,4 @@ function loadPage(p1, p2, p3) {
    document.getElementById("img1").alt = images[0][2];
 
 }
+
