@@ -1,6 +1,7 @@
 window.addEventListener('load', loadClassicalFigure, false);
 window.addEventListener('load', loadAtelierDrawing, false);
 window.addEventListener('load', loadIntroToFigure, false);
+window.addEventListener('load', hideCounter, false);
 
 function loadClassicalFigure() {
 
@@ -79,5 +80,9 @@ function loadIntroToFigure() {
     document.getElementById("if_res".concat((i+1).toString())).style.display = "none";
     document.getElementById("if_img".concat((i+1).toString())).style.display = "none";
     document.getElementById("if_gal".concat((i+1).toString())).style.display = "none";
+  }
+  
+  function hideCounter() {
+     document.getElementById("counter").style.display = "none"; 
   }
 }
