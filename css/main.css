@@ -326,6 +326,9 @@ button:active {
                     width:  36vw;
                 }
 	
+                .submitElement {
+			    max-width: 55%;
+		}
     		.caption {
 		 font-size: 1.8vh;	
 	        }
@@ -374,7 +377,7 @@ button:active {
                 }
 	
 		.submitElement {
-			    max-width: 70%;
+			    max-width: 59%;
 		}
               .responsive {
                 width: 49.99999%;
