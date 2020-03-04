@@ -183,7 +183,7 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 50%;
+    max-width: 46%;
 }
 
 input {
@@ -436,10 +436,6 @@ button:active {
                  margin 0 0 0 10vw;   
                 }
 	
-                .submitElement {
-			    max-width: 70%;
-		}
-	
                 input {
                     width: 45vw;
                 }
@@ -454,6 +450,14 @@ button:active {
 	
 		.inline_img {
 		    max-width: 35vw;
+		}
+
+}
+
+@media only screen and (max-width: 375px) {
+
+	.submitElement {
+			    max-width: 70%;
 		}
 
 }
