@@ -389,6 +389,11 @@ button:active {
             .container {
                  margin: 10vh 4vw 0 4vw;
                 }
+	
+	                .submitElement {
+			    max-width: 50%;
+		}
+	
 }
 
 @media only screen and (max-width: 500px) {
@@ -421,6 +426,10 @@ button:active {
                 form {
                  margin 0 0 0 10vw;   
                 }
+	
+                .submitElement {
+			    max-width: 70%;
+		}
 	
                 input {
                     width: 45vw;
