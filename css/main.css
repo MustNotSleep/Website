@@ -370,8 +370,12 @@ button:active {
                 }
 	
                 textarea {
-                    width:  46vw;
+                    width:  70vw;
                 }
+	
+		.submitElement {
+			    max-width: 70%;
+		}
               .responsive {
                 width: 49.99999%;
               }
