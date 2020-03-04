@@ -42,14 +42,16 @@ h2 {
     
 }
 h4 {
-    font-weight: normal;
      margin-block-start: 0.25vh;
-     margin-block-end: 0vh;
-     font-size: 1.55vh;
+     margin-block-end: 0.25vh;
+    font-size: 2.1vh;
+    font-weight: 700;
 }
+
 .bannertabs {
     font-size: 2.3vh;
 }
+
 .banner :link, a, a:visited {
     color: #696969;
     padding: 0.5vh 2vh 0.5vh 2vh;
