@@ -117,6 +117,14 @@ div {
 .center {
  text-align: center;   
 }
+
+.inline_img {
+    float: right;
+    max-height: 40vh;
+    max-width: 55vw;
+    margin: 0 6vw 2vh 6vw;
+}
+
 div.gallery {
   margin-top: 1vh;
   margin-bottom: 3vh;
@@ -165,7 +173,8 @@ form {
 .submitElement {
     display: flex;
     align-items: center;
-    justify-content: center;	
+    justify-content: center;
+    max-width: 50%;
 }
 
 input {
@@ -424,6 +433,10 @@ button:active {
                 button {
 		  width: 20vw;
                 }
+	
+		.inline_img {
+		    max-width: 35vw;
+		}
 
 }
 
