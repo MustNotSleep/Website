@@ -195,7 +195,8 @@ input {
 	color: #686868;   
 	text-align: left;
  	border: 0.05vh solid #DDD;
-	box-shadow: none;
+	border-radius: 1vh;
+        box-shadow: none;
 	font-family: Roboto, Corbel, Arial, sans-serif;
 }
 
@@ -207,7 +208,8 @@ textarea {
 	padding-left: 0.5vh;
 	color: #686868;   
 	text-align: left;
- 	border: 0.05vh solid #DDD;
+    	border: 0.05vh solid #DDD;
+        border-radius: 1vh;
 	box-shadow: none;
     	font-family: Roboto, Corbel, Arial, sans-serif;
 }
