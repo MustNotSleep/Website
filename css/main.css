@@ -129,8 +129,8 @@ div {
 
 .inline_img {
     float: right;
-    height: 45vh;
-    width: 23vw;
+    max-height: 45vh;
+    max-width: 23vw;
     margin: 0 0vw 1vh 2vw;
 }
 
