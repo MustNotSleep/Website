@@ -129,9 +129,9 @@ div {
 
 .inline_img {
     float: right;
-    max-height: 40vh;
-    max-width: 55vw;
-    margin: 0 6vw 2vh 6vw;
+    height: 40vh;
+    width: 23vw;
+    margin: 0 0vw 1vh 2vw;
 }
 
 div.gallery {
@@ -183,7 +183,7 @@ form {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 46%;
+    max-width: 42vw;
 }
 
 input {
@@ -327,7 +327,7 @@ button:active {
                 }
 	
                 .submitElement {
-			    max-width: 55%;
+			    max-width: 50vw;
 		}
     		.caption {
 		 font-size: 1.8vh;	
@@ -377,7 +377,7 @@ button:active {
                 }
 	
 		.submitElement {
-			    max-width: 59%;
+			    max-width: 50vw;
 		}
               .responsive {
                 width: 49.99999%;
@@ -452,7 +452,8 @@ button:active {
                 }
 	
 		.inline_img {
-		    max-width: 35vw;
+		    max-width: 40vw;
+                    max-height: 30vh;
 		}
 
 }
@@ -460,7 +461,7 @@ button:active {
 @media only screen and (max-width: 375px) {
 
 	.submitElement {
-			    max-width: 80%;
+			    max-width: 80vw;
 		}
 
 }
