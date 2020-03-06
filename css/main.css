@@ -184,6 +184,7 @@ form {
     align-items: center;
     justify-content: center;
     max-width: 42vw;
+    border-radius: 0.6vh;
 }
 
 input {
@@ -195,7 +196,6 @@ input {
 	color: #686868;   
 	text-align: left;
  	border: 0.05vh solid #DDD;
-	border-radius: 1vh;
         box-shadow: none;
 	font-family: Roboto, Corbel, Arial, sans-serif;
 }
@@ -209,7 +209,6 @@ textarea {
 	color: #686868;   
 	text-align: left;
     	border: 0.05vh solid #DDD;
-        border-radius: 1vh;
 	box-shadow: none;
     	font-family: Roboto, Corbel, Arial, sans-serif;
 }
@@ -233,8 +232,7 @@ textarea {
 button {
     	box-shadow: inset 0px 0px 0px -50px #ffffff;
    	background: linear-gradient(to bottom, #ededed 5%, #DDD 100%);
-	background-color: #DDD;
-	border-radius: 0.6vh;
+	background-color: #DDD
 	border: 1px solid #dcdcdc;
 	cursor: pointer;
 	color: #686868;
