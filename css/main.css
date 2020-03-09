@@ -53,6 +53,7 @@ h4 {
      margin-block-start: 0.25vh;
      margin-block-end: 0.25vh;
      font-size: 2.1vh;
+     clear: both;
 }
 
 .bannertabs {
@@ -377,6 +378,11 @@ button:active {
 		.submitElement {
 			    max-width: 50vw;
 		}
+	
+                .subheading {
+                     clear: both;
+              }
+	
               .responsive {
                 width: 49.99999%;
               }
