@@ -22,3 +22,4 @@ function loadPage() {
     document.getElementById("frame".concat((i+1).toString())).style.height = "0";
   }
 }
+
