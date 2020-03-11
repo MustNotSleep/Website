@@ -7,7 +7,6 @@ function loadPage() {
     ["/images/self-portrait.JPG", "Self-portrait, 2019", "Self-portrait drawing "]
   ];
   
-  
   for (i = 0; i < images.length; i++) {
    //set image location
    document.getElementById("img".concat((i+1).toString())).src = images[i][0];
