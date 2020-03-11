@@ -243,43 +243,6 @@ button {
 	width: 10vw;
 }
 
-.alert {
-	height: 0;
-	position: relative;
-}
-
-.alert-success {
-	opacity:0;
-	#color: #006600;
-	animation: fadeOut ease 5s;
-}
-
-.alert-danger {
-	color: red;
-}
-
-.help-block {
-	   position: absolute !important;
-	   top: -9999px !important;
-	   left: -9999px !important;
-	}
-
-@keyframes fadeOut {
- 0% {
-    opacity:0;
-	}
- 1% {
-    opacity:1;
-  }
-80% {
-    opacity: 1;
-  }
-  100% {
-    opacity:0;
-  }
-}
-
-
 button:hover {
 	background:linear-gradient(to bottom, #DDD 5%, #ededed 100%);
 	background-color:#DDD;
