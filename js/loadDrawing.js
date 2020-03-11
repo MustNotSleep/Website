@@ -2,7 +2,6 @@ window.addEventListener('load', loadPage, false);
 
   //image objects consisting of image location, caption, and alt text
   var images = [
-    ["/images/self-portrait.JPG", "Self-portrait, 2019", "Self-portrait drawing "]
   ];
 
 
