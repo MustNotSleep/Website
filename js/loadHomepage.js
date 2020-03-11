@@ -4,6 +4,7 @@ function loadPage() {
 
   //image objects consisting of image location, caption, and alt text
   var images = [
+    ["/images/self-portrait.JPG", "Self-portrait, 2019", "Self-portrait drawing "]
   ];
   
   for (i = 0; i < images.length; i++) {
@@ -21,3 +22,4 @@ function loadPage() {
     document.getElementById("frame".concat((i+1).toString())).style.height = "0";
   }
 }
+
