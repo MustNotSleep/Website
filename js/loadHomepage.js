@@ -4,7 +4,6 @@ function loadPage() {
 
   //image objects consisting of image location, caption, and alt text
   var images = [
-    []
   ];
   
   for (i = 0; i < images.length; i++) {
