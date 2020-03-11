@@ -4,7 +4,6 @@ function loadPage() {
 
   //image objects consisting of image location, caption, and alt text
   var images = [
-    ["/images/25BFF15E-EBE2-493F-B200-2BF65D27AA2B.jpeg", "Still life", "Still life painting"]
   ];
   
   for (i = 0; i < images.length; i++) {
