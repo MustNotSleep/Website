@@ -4,6 +4,7 @@ function loadNav() {
 
   //pages to appear in banner, stored as page name and URL
   var pages = [
+
   ];
   
   
