@@ -7,6 +7,7 @@ function loadNav() {
     ["painting", "/painting/"], 
     ["drawing", "/drawing/"],
     ["contact", "/contact/"]
+    
   ];
   
   
