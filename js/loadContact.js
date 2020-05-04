@@ -4,7 +4,7 @@ function loadPage() {
 
   //image objects consisting of image location, caption, and alt text
   var images = [
-    ["/images/self-portrait.JPG", "Self-portrait, 2019", "Self-portrait drawing "]
+    ["/images/bargue/Bargue_1.JPG", "Charcoal, 2019", "Bargue plate drawing "]
   ];
   
   for (i = 0; i < images.length; i++) {
