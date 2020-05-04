@@ -1,0 +1,1 @@
+edit and commit this file to sync live site after changing from master to gh-pages or vice versa
