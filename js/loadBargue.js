@@ -4,7 +4,7 @@ function loadPage() {
 
   //image objects consisting of image location, caption, and alt text
   var images = [
-    ["/images/bargue/Bargue_1.JPG", "Bargue plate, 2019", "Bargue plate drawing"]
+    ["/images/bargue/Bargue_1.JPG", "Charcoal, 2019", "Bargue plate drawing"]
   ];
   
   for (i = 0; i < images.length; i++) {
