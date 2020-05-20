@@ -4,7 +4,7 @@ function loadPage() {
 
   //image objects consisting of image location, caption, and alt text
   var images = [
-    ["/images/bargue/Bargue_2.JPG", "Graphite, 2020", "Bargue plate drawing"],
+    ["/images/bargue/1B946D18-6D4C-4CD5-8EA4-2CB3BF231923.jpeg", "Graphite, 2020", "Bargue plate drawing"],
     ["/images/bargue/Bargue_1.JPG", "Charcoal, 2019", "Bargue plate drawing"]
   ];
   
