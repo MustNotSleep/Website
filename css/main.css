@@ -1,8 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Roboto:300';
-#ghostery-purple-box {display:none !important}
+div[id^="ghostery"] {display:none !important}
+
 body
 {
-background-color: #f8f9fa;	
+background-color: #e0e1e2;
 font-family: Roboto, Corbel, Arial, sans-serif;
 color: #696969;
 }
@@ -20,11 +21,11 @@ html {
 }
 
 #name {
-     font-size: 5.5vh;   
+     font-size: 5.5vh;
 }
 
 .banner a:empty {
-	padding: 0.5vh 0;	
+	padding: 0.5vh 0;
 }
 
 h1 {
@@ -32,20 +33,32 @@ h1 {
    font-size: inherit;
     margin-block-start: 0vh;
     margin-block-end: 0vh;
-    
+
 }
 h2 {
     font-weight: normal;
     font-size: 1.95vh;
     margin-block-start: 0vh;
     margin-block-end: 0vh;
-    
+
 }
+
+
 h4 {
      font-weight: normal;
      margin-block-start: 0.25vh;
      margin-block-end: 0vh;
      font-size: 1.55vh;
+}
+
+.label {
+  text-align: justify;
+}
+
+.text_block {
+  margin-block-start: -5vh;
+  margin-block-end: 5vh;
+  margin-right: 3vh;
 }
 
 .subheading {
@@ -68,7 +81,7 @@ h4 {
 .banner a:hover {
     color: #191919;
 }
-.frame {
+/*.frame {
     text-align: center;
     padding: 2vh 2vh 15vh 2vh;
 }
@@ -97,7 +110,7 @@ div {
     text-align: left;
     margin-top: 3vh;
     margin-bottom:5vh;
-}
+} */
 .page_name {
     width: 100%;
     text-align: center;
@@ -109,11 +122,12 @@ div {
     margin-right: auto;
     margin-bottom: 10vh;
 }
+/*
 .course :link {
     padding: 0;
 }
 .small {
- max-width: 20vw;   
+ max-width: 20vw;
 }
 .caption {
  font-family: Helvetica, Arial, sans-serif;
@@ -121,20 +135,40 @@ div {
 }
 
 .course_desc {
- clear:both;	
+ clear:both;
 }
 
 .center {
- text-align: center;   
+ text-align: center;
 }
+
+*/
 
 .inline_img {
     float: right;
-    max-height: 45vh;
+    max-height: 55vh;
     max-width: 23vw;
     margin: 0 0vw 1vh 2vw;
 }
 
+.inline_caption {
+  display: block;
+  float: right;
+  clear: both;
+  margin: 0 0 3vh 6vw;
+  flex-wrap: wrap;
+  overflow-wrap: break-word;
+  top: 0;
+  max-width: 23vw;
+  text-align: right;
+  margin: 0 0 0 auto;
+  padding: 0 0 2vh 3vw;
+}
+
+.caption_container {
+  margin:auto;
+}
+/*
 div.gallery {
   margin-top: 1vh;
   margin-bottom: 3vh;
@@ -159,8 +193,10 @@ div.desc {
   width: 24.99999%;
 }
 
+*/
+
 form {
- 	margin 0 0 0 30vw;   
+ 	margin 0 0 0 30vw;
 }
 
 
@@ -195,7 +231,7 @@ input {
  	font-size: 2vh;
         margin: 0 0 1vh 0;
 	padding-left: 0.5vh;
-	color: #686868;   
+	color: #686868;
 	text-align: left;
         box-shadow: none;
 	font-family: Roboto, Corbel, Arial, sans-serif;
@@ -207,14 +243,14 @@ textarea {
  	font-size: 2vh;
 	margin: 0 0 0.5vh 0;
 	padding-left: 0.5vh;
-	color: #686868;   
+	color: #686868;
 	text-align: left;
 	box-shadow: none;
     	font-family: Roboto, Corbel, Arial, sans-serif;
 }
 
 .col-form-label {
-	display: none;	
+	display: none;
 }
 
 ::placeholder {
@@ -231,13 +267,13 @@ textarea {
 
 button {
     	box-shadow: inset 0px 0px 0px -50px #ffffff;
-   	background: linear-gradient(to bottom, #ededed 5%, #DDD 100%);
+   	background: linear-gradient(to bottom, #CCC 5%, #C9C9C9 100%);
 	background-color: #DDD
 	cursor: pointer;
 	color: #686868;
 	padding: 0.3vh 2vw 0.3vh 2vw;
 	text-decoration: none;
-    	font-size: 2vh;                              
+    	font-size: 2vh;
     	height: 3.5vh;
     	text-align: center;
 	width: 10vw;
@@ -266,12 +302,12 @@ button:active {
 @media only screen and (min-width: 1024px) {
               .course_desc {
                max-width:65%
-              } 
-               
+              }
+
                 input {
                     width:  22vw;
                 }
-	
+
                 textarea {
                     width:  29vw;
                 }
@@ -283,25 +319,31 @@ button:active {
                 input {
                     width:  28vw;
                 }
-	
+
                 textarea {
                     width:  45vw;
                 }
-	
+
                 .submitElement {
-			    max-width: 50vw;
-		}
-    		.caption {
-		 font-size: 1.8vh;	
-	        }
-	
+              			    max-width: 49vw;
+              		}
+                  		.caption {
+              		 font-size: 1.8vh;
+              	        }
+
                 .container {
                  margin: 10vh 10vw 0 10vw;
                 }
 
-		button {
-			width: 10vw;		
-		}
+            		button {
+            			width: 10vw;
+            		}
+
+
+                    .inline_img {
+                          max-height: 55vh;
+                          max-width: 39vw;
+                     }
 }
 
 @media only screen and (max-width: 900px) {
@@ -309,7 +351,7 @@ button:active {
                 input {
                     width: 30vw;
                 }
-	
+
                 textarea {
                     width:  38vw;
                 }
@@ -318,34 +360,40 @@ button:active {
 
 @media only screen and (max-width: 812px) {
                 #name {
-                font-size: 6.5vh;               
+                font-size: 6.5vh;
                 }
-                
+
                 .page_name {
                   font-size: 5vh;
                   margin-bottom: 3vh;
                   }
                 img {
-                    
+
                     max-height: 65vh;
                 }
-	
+
+                .inline_img {
+
+                    max-height: 65vh;
+                }
+
+
                 input {
                     width: 35vw;
                 }
-	
+
                 textarea {
                     width:  70vw;
                 }
-	
+
 		.submitElement {
-			    max-width: 50vw;
+			    max-width: 49vw;
 		}
-	
+
               .responsive {
                 width: 49.99999%;
               }
-    
+
 	       div.gallery img {
 			  max-width: 36vw;
 	       }
@@ -353,55 +401,65 @@ button:active {
                 .container {
                  margin: 10vh 8vw 0 8vw;
                 }
-		
+
 }
 
-@media only screen and (max-width: 750px) {
-	
+@media only screen and (max-width: 768px) {
+
                 input {
                     width: 40vw;
                 }
-	
+
                 textarea {
                     width:  55vw;
                 }
             .container {
                  margin: 10vh 4vw 0 4vw;
                 }
-	
+
+                .inline_img {
+                      max-height: 55vh;
+                 }
+
+
 }
 
 @media only screen and (max-width: 512px) {
-                                
+
                img {
                      max-height: 61vh;
                      max-width: 83vw;
                 }
-                                
+
+                .inline_img {
+                      max-height: 61vh;
+                      max-width: 39vw;
+                 }
+
                 .page_name {
                   font-size: 3vh;
                   }
                 .course {
                  width: 85vw;
                 }
-    
-              
+
+
                   .responsive {
                      width: 100%;
                   }
-    
+
 	        div.gallery img {
 			  max-width: 83vw;
 	        }
-	
+
 		.caption {
-		 font-size: 1.8vh;	
+		 font-size: 1.8vh;
 	        }
-	
+
                 form {
-                 margin 0 0 0 10vw;   
+                 margin 0 0 0 10vw;
                 }
-	
+
                 input {
                     width: 45vw;
                 }
@@ -409,19 +467,16 @@ button:active {
                 textarea {
                     width:  65vw;
                 }
-	
+
                 button {
 		  width: 20vw;
                 }
-	
+
                 .subheading {
                      clear: both;
               }
-	
-		.inline_img {
-		    max-width: 40vw;
-                    max-height: 30vh;
-		}
+
+
 
 }
 
@@ -437,4 +492,62 @@ button:active {
   content: "";
   display: table;
   clear: both;
+}
+
+
+.centered {
+  display: flex;
+  height: 100vh;            /* Needed for vertical centering */
+  align-items: center;      /* Flex - vertical centering */
+  margin: 0 auto;           /* Horizontally center the layout */
+  justify-content: center;  /* Flex - horizontal centering of content */
+  text-align: center;       /* Keep images centered in the event of layout width exceeding image width */
+  max-width: 65%;           /* For demo purposes */
+}
+
+/* Nested non flex container allows you to create a separate layout inside the flex container */
+.centered div {
+  position: absolute;
+  top: 12vh;
+  display: block;
+  padding: 10px;
+  max-width: 75%           /* For demo purposes */
+}
+.centered img {
+  max-width: 99%;
+  margin: 1vh 0.5vw;
+  max-height: 40vh;
+}
+
+.centered  a {
+  max-width: 99%;
+  margin: 5px 0;
+  max-height: 40vh;
+  padding: 0px;
+
+}
+
+.centered .spotlight {
+  display: block;
+  margin: 15vh auto 20vh auto;
+  max-height: 73vh;
+}
+
+.centered .hero {
+  display: block;
+  margin: 5vh auto 20vh auto;
+  max-height: 73vh;
+}
+
+.hidden_capt {
+  display: none;
+}
+
+.visible_capt {
+  position: relative;
+  top: -20vh;
+}
+
+.mfp-title {
+  text-align: center;
 }
