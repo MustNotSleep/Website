@@ -58,7 +58,6 @@ h4 {
 }
 
 .text_block {
-  margin-block-start: -5vh;
   margin-block-end: 5vh;
   margin-right: 3vh;
 }
@@ -75,11 +74,21 @@ h4 {
     font-size: 2.3vh;
 }
 
-.banner :link, a, a:visited {
+
+#header > * > * > a {
     color: #696969;
     padding: 0.5vh 2vh 0.5vh 2vh;
     text-decoration: none;
 }
+
+
+.banner :link, .banner  a, .banner a:visited, .header a, .header a:visited {
+    color: #696969;
+    padding: 0.5vh 2vh 0.5vh 2vh;
+    text-decoration: none;
+}
+
+
 .banner a:hover {
     color: #191919;
 }
@@ -152,6 +161,7 @@ div {
     max-width: 23vw;
     margin: 0 0vw 1vh 2vw;
 }
+
 
 .inline_caption {
   display: block;
