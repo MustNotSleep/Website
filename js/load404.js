@@ -50,8 +50,8 @@ function loadPage() {
    document.getElementById("a1").href = images[randomNum].path;
    //set caption
    document.getElementById("capt1").innerHTML = images[randomNum].caption;
-   //set caption in title of a element (for use in magnific popup)
-   document.getElementById("a1").title = images[randomNum].caption;
+   //set caption in caption of a element (for use in magnific popup)
+   document.getElementById("a".concat((i+1).toString())).setAttribute("caption",images[randomNum].caption);
    //set caption hidden/visible
    document.getElementById("capt1").classList.add(images[randomNum].caption_toggle);
    //set alt text

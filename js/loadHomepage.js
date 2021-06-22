@@ -2,10 +2,10 @@ window.addEventListener('load', loadPage, false);
 
 function loadPage() {
 
-
+/*
   var images = [
-        /*{path: "/images/1.jpg", caption: "Rembrandt caption", alt_text: "Rembrandt, 1615", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
-        {path: "/images/2.jpg", caption: "Test caption, 20x40, 2020", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "landscape"},
+        {path: "/images/1.jpg", caption: "Rembrandt caption", alt_text: "Rembrandt, 1615", display_class: "hero", caption_toggle: "visible_capt", gal_catergory: "portrait"},
+        {path: "/images/2.jpg", caption: "Test caption, 20x40, 2020", alt_text: "", display_class: "spotlight", caption_toggle: "visible_capt", gal_catergory: "landscape"},
         {path: "/images/3.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/4.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/5.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
@@ -40,9 +40,8 @@ function loadPage() {
         {path: "/images/6.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/7.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/8.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
-        */
       ];
-
+*/
 //set img ids
   for (i = 0; i < images.length; i++) {
    //set image location
@@ -51,8 +50,8 @@ function loadPage() {
    document.getElementById("a".concat((i+1).toString())).href = images[i].path;
    //set caption
    document.getElementById("capt".concat((i+1).toString())).innerHTML = images[i].caption;
-   //set caption in title of a element (for use in magnific popup)
-   document.getElementById("a".concat((i+1).toString())).title = images[i].caption;
+   //set caption in caption of a element (for use in magnific popup)
+   document.getElementById("a".concat((i+1).toString())).setAttribute("caption",images[i].caption);
    //set caption hidden/visible
    document.getElementById("capt".concat((i+1).toString())).classList.add(images[i].caption_toggle);
    //set alt text

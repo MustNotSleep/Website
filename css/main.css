@@ -537,7 +537,8 @@ button:active {
   margin: 5px 0;
   max-height: 40vh;
   padding: 0px;
-
+  color: inherit;
+  text-decoration: none;
 }
 
 .centered .spotlight {
@@ -558,7 +559,7 @@ button:active {
 
 .visible_capt {
   position: relative;
-  top: -20vh;
+  top: -18vh;
 }
 
 .mfp-title {
