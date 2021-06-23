@@ -1,10 +1,24 @@
-window.addEventListener('load', loadPage, false);
+window.addEventListener('load', validate, false);
+
+function validate() {
+  var password = window.prompt('Enter password');
+
+  //a very not secure way to password protect a static page
+  //it doesn't actually matter if anyone accesses this, this is just to nudge anyone who find this page back to where they came from
+  if (password == 'super secure') {
+      loadPage();
+  }
+  else {
+      history.back();
+  }
+
+}
+
 
 function loadPage() {
 
-
-  var images = [
-      /*  {path: "/images/1.jpg", caption: "Rembrandt caption", alt_text: "Rembrandt, 1615", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
+var images = [
+        {path: "/images/1.jpg", caption: "Rembrandt caption", alt_text: "Rembrandt, 1615", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/2.jpg", caption: "Test caption, 20x40, 2020", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "landscape"},
         {path: "/images/3.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/4.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
@@ -39,23 +53,11 @@ function loadPage() {
         {path: "/images/5.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/6.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/7.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
-        {path: "/images/8.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},*/
+        {path: "/images/8.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
       ];
-  //image objects consisting of image location, caption, alt text, and class (for setting hero, spotlight images)
-  /* var images = [
-    ["/images/2.jpg", "Test2", "alt_text", "hero", "visible_capt"],
-    ["/images/1.jpg", "Test2", "alt_text", "regular", "hidden_capt"],
-    ["/images/3.jpg", "Test2", "alt_text", "regular", "hidden_capt"],
-    ["/images/4.jpg", "Test2", "alt_text", "regular", "hidden_capt"],
-    ["/images/5.jpg", "Test2", "alt_text","regular", "hidden_capt"],
-    ["/images/6.jpg", "Test2", "alt_text", "regular", "hidden_capt"],
-    ["/images/7.jpg", "Test2", "alt_text","regular", "hidden_capt"],
-    ["/images/8.jpg", "Test2", "alt_text", "regular", "hidden_capt"],
-    ["/images/9.jpg", "Test2", "alt_text", "regular", "hidden_capt"],
-    ["/images/10.jpg", "Test2", "alt_text","regular", "hidden_capt"],
-    ["/images/11.jpg", "Test2", "alt_text", "regular", "hidden_capt"]
-  ];
-*/
+
+
+
 
 //set img ids
   for (i = 0; i < images.length; i++) {
@@ -73,11 +75,6 @@ function loadPage() {
    document.getElementById("img".concat((i+1).toString())).alt = images[i].alt_text;
    //set class
    document.getElementById("img".concat((i+1).toString())).classList.add(images[i].display_class, images[i].gal_catergory);
-}
-
-
-for (var i in images) {
-
 }
 
 
