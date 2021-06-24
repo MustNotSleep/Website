@@ -1,15 +1,20 @@
 window.addEventListener('load', validate, false);
 
 function validate() {
-  var password = window.prompt('Enter password');
+  var user_password = window.prompt('Enter password').toLowerCase();
+
+  var stored_passwords = new Array('super secure', 'diana', 'mark');
+
+  alert(stored_passwords.indexOf(user_password));
 
   //a very not secure way to password protect a static page
   //it doesn't actually matter if anyone accesses this, this is just to nudge anyone who find this page back to where they came from
-  if (password == 'super secure') {
-      loadPage();
+  if (stored_passwords.indexOf(user_password) != -1)
+  {
+    loadPage();
   }
   else {
-      history.back();
+    history.back();
   }
 
 }
