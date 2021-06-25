@@ -301,6 +301,16 @@ button:active {
 	top:1px;
 }
 
+.filters {
+  text-align: center;
+}
+
+.filter_buttons {
+  display:inline-flex;
+  margin: 0 1vw 0 1vw
+
+}
+
 @media only screen and (min-width: 1200px) {
 
                 input {
@@ -526,6 +536,11 @@ button:active {
   padding: 10px;
   max-width: 75%           /* For demo purposes */
 }
+
+.has_filters div {
+  top: 28vh;
+}
+
 .centered img {
   max-width: 99%;
   margin: 1vh 0.5vw;

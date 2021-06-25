@@ -11,7 +11,7 @@ function validate() {
   //it doesn't actually matter if anyone accesses this, this is just to nudge anyone who find this page back to where they came from
   if (stored_passwords.indexOf(user_password) != -1)
   {
-    loadPage();
+    loadPage('all');
   }
   else {
     history.back();
@@ -20,7 +20,7 @@ function validate() {
 }
 
 
-function loadPage() {
+function loadPage(filter_name) {
 
 var images = [
         {path: "/images/1.jpg", caption: "Rembrandt caption", alt_text: "Rembrandt, 1615", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
@@ -78,17 +78,31 @@ var images = [
    document.getElementById("capt".concat((i+1).toString())).classList.add(images[i].caption_toggle);
    //set alt text
    document.getElementById("img".concat((i+1).toString())).alt = images[i].alt_text;
-   //set class
+   //set classes
+   document.getElementById("img".concat((i+1).toString())).classList.add(images[i].display_class, 'all');
    document.getElementById("img".concat((i+1).toString())).classList.add(images[i].display_class, images[i].gal_catergory);
-}
 
+
+   if (document.getElementById("img".concat((i+1).toString())).classList.contains(filter_name))
+   {
+     document.getElementById("img".concat((i+1).toString())).style.display = "inherit"
+   }
+   else {
+     document.getElementById("img".concat((i+1).toString())).style.display = "none"
+   }
+ }
 
 
 //hide unused elements
-   for (i = images.length; i < 999; i++) {
+   for (i = images.length; i < 199; i++) {
 
     document.getElementById("a".concat((i+1).toString())).style.display = "none";
     document.getElementById("img".concat((i+1).toString())).style.dusplay = "none";
     document.getElementById("capt".concat((i+1).toString())).style.dusplay = "none";
   }
+}
+
+function setFilter(filter_name){
+    loadPage(filter_name);
+
 }
