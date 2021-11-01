@@ -2,9 +2,9 @@ window.addEventListener('load', loadPage, false);
 
 function loadPage() {
 
-//display_class options: hero, highlight, regular
+//display_class options: hero, spotlight, regular
   var images = [
-        {path: "/images/Rembrandt_mastercopy.jpg", caption: "Master copy, Rembrandt at 63", alt_text: "Master copy, Rembrandt at 63", display_class: "highlight", caption_toggle: "visble_capt", gal_catergory: "portrait"},
+        {path: "/images/Rembrandt_mastercopy.jpg", caption: "Master copy, Rembrandt at 63", alt_text: "Master copy, Rembrandt at 63", display_class: "spotlight", caption_toggle: "visble_capt", gal_catergory: "portrait"},
         /*{path: "/images/2.jpg", caption: "Test caption, 20x40, 2020", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "landscape"},
         {path: "/images/3.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/4.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
