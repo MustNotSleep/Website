@@ -44,7 +44,7 @@
       const percent = (tot-remaining)/tot;
       const per_str = (percent*100).toPrecision(4).toString().concat("%");
       document.getElementById("countdown").innerHTML = per_str;
-      document.getElementById("prog").value = percent;
+      document.getElementById("prog").value = percent*100;
     </script>
     <!-- <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=kevinrossoll.com" alt="Hits" style="display: none"> -->
 </body>
