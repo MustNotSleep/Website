@@ -42,7 +42,7 @@
       const tot = (end-start)/(1000*3600*24);
       const remaining = (end-current)/(1000*3600*24);
       const percent = (tot-remaining)/tot;
-      const per_str = (percent*100).toPrecision(4).toString().concat("%");
+      const per_str = (percent*100).toPrecision(3).toString().concat("%");
       document.getElementById("countdown").innerHTML = per_str;
       document.getElementById("prog").value = percent*100;
     </script>
