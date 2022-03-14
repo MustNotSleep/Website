@@ -32,18 +32,55 @@
     <div class="centered">
       <div>
         <progress id="prog" max="100" value=""></progress>
-        <p id="countdown"></p>
+        <p id="lvl"><p id="per"></p>
     </div>
 
     <script>
-      const end = new Date(2028, 04, 18, 0);
-      const start = new Date(2022, 01, 14, 0);
-      const current = new Date().getTime();
-      const tot = (end-start);
-      const remaining = (end-current);
-      const percent = (tot-remaining)/tot*100;
-      const per_str = (percent).toPrecision(3).toString().concat("%");
-      document.getElementById("countdown").innerHTML = per_str;
+  	var current = new Date().getTime();
+    var start = new Date(2022, 01, 14, 0);
+    var end = new Date(2028, 04, 18, 0);
+    var ninetysix = new Date(2022,10,14,0);
+    var ninetyseven = new Date(2023,10,17,0);
+    var ninetyeight = new Date(2025,04,11,0);
+    var ninetynine = new Date(2027,04,21,0);
+      
+    if (current < ninetysix) 
+    {
+     	lvl = "95";
+        start = start;
+       	end = ninetysix;
+    }
+   	else if (current < ninetyseven)
+    {
+      	lvl = "96";
+        start = ninetysix;
+        end = ninetyseven;
+    }
+    else if (current < ninetyeight)
+    {
+      	lvl = "97";
+        start = ninetyseven;
+      	end = ninetyeight;
+    }
+    else if (current < ninetynine)
+    {
+    	lvl = "98";
+        start = ninetyeight;
+      	end = ninetynine;
+    }
+    else 
+    {
+    	lvl = "99";
+        start = ninetynine;
+        end = ninetynine;
+    }
+
+      var tot = (end-start);
+      var remaining = (end-current);
+      var percent = (tot-remaining)/tot*100;
+      var per_str = (percent).toPrecision(3).toString().concat("%");
+      document.getElementById("lvl").innerHTML = lvl;
+      document.getElementById("per").innerHTML = per_str;
       document.getElementById("prog").value = percent;
     </script>
     <!-- <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=kevinrossoll.com" alt="Hits" style="display: none"> -->
