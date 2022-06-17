@@ -39,7 +39,8 @@
     <script>
   	var current = new Date().getTime();
     var start = new Date(2022, 01, 14, 0);
-    var end = new Date(2028, 04, 21, 0);
+    var end = new Date(2027, 04, 21, 0);
+    var eighty = new DATE(2022, 06, 07, 0);
     var eightyone = new Date(2022,06,24,0);
     var eightytwo = new Date(2022, 07, 12, 0);
     var eightythree = new Date(2022, 08, 02, 0);
@@ -61,10 +62,16 @@
     var ninetyeight = new Date(2026,00,31,0);
     var ninetynine = new Date(2027,04,21,0);
 
-    if (current < eightyone) 
+    if (current < eighty) 
+    {
+     	lvl = "79";
+        start = start;
+       	end = eighty;
+    }
+   else if (current < eightyone) 
     {
      	lvl = "80";
-        start = start;
+        start = eighty;
        	end = eightyone;
     }
     else if (current < eightytwo) 
