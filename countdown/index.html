@@ -60,11 +60,17 @@
     var ninetyseven = new Date(2025,04,12,0);
     var ninetyeight = new Date(2026,00,09,0);
     var ninetynine = new Date(2027,04,21,0);
-     
+
+    if (current < eightyone) 
+    {
+     	lvl = "80";
+        start = start;
+       	end = eightyone;
+    }
     if (current < eightytwo) 
     {
      	lvl = "81";
-        start = start;
+        start = eightyone;
        	end = eightytwo;
     }
     else if (current < eightythree) 
