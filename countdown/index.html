@@ -40,15 +40,115 @@
   	var current = new Date().getTime();
     var start = new Date(2022, 01, 14, 0);
     var end = new Date(2028, 04, 18, 0);
-    var ninetysix = new Date(2022,10,14,0);
-    var ninetyseven = new Date(2023,10,17,0);
-    var ninetyeight = new Date(2025,04,11,0);
+    var eightyone = new Date(2022,06,22,0);
+    var eightytwo = new Date(2022, 07, 10, 0);
+    var eightythree = new Date(2022, 07, 30, 0);
+    var eightyfour = new Date(2022, 08, 21, 0);
+    var eightyfive = new Date(2022, 09, 15, 0);
+    var eightysix = new Date(2022, 10, 11, 0);
+    var eightyseven = new Date(2022, 11, 10, 0);
+    var eightyeight = new Date(2023, 00, 10, 0);
+    var eightynine = new Date(2023, 01, 23, 0);
+    var ninety = new Date(2023, 02, 20, 0);
+    var ninetyone = new Date(2023, 04, 04, 0);
+    var ninetytwo = new Date(2023, 05, 28, 0);
+    var ninetythree = new Date(2023, 07, 30, 0);
+    var ninetyfour = new Date(2023, 10, 24, 0);
+    var ninetyfive = new Date(2024, 02, 14, 0);
+        
+    var ninetysix = new Date(2024,07,28,0);
+    var ninetyseven = new Date(2025,04,12,0);
+    var ninetyeight = new Date(2026,00,09,0);
     var ninetynine = new Date(2027,04,21,0);
-      
-    if (current < ninetysix) 
+     
+    if (current < eightytwo) 
+    {
+     	lvl = "81";
+        start = start;
+       	end = eightytwo;
+    }
+    else if (current < eightythree) 
+    {
+     	lvl = "82";
+        start = eightytwo;
+       	end = eightythree;
+    }
+    else if (current < eightyfour) 
+    {
+     	lvl = "83";
+        start = eightythree;
+       	end = eightyfour;
+    }      
+    else if (current < eightyfive) 
+    {
+     	lvl = "84";
+        start = eightyfour;
+       	end = eightyfive;
+    }
+    else if (current < eightysix) 
+    {
+     	lvl = "85";
+        start = eightyfive;
+       	end = eightysix;
+    }
+    else if (current < eightyseven) 
+    {
+     	lvl = "86";
+        start = eightysix;
+       	end = eightyseven;
+    }
+    else if (current < eightyeight) 
+    {
+     	lvl = "87";
+        start = eightyseven;
+       	end = eightyeight;
+    }
+    else if (current < eightynine) 
+    {
+     	lvl = "88";
+        start = eightyeight;
+       	end = eightynine;
+    }
+    else if (current < ninety) 
+    {
+     	lvl = "89";
+        start = eightynine;
+       	end = ninety;
+    }
+    else if (current < ninetyone) 
+    {
+     	lvl = "90";
+        start = ninety;
+       	end = ninetyone;
+    }
+    else if (current < ninetytwo) 
+    {
+     	lvl = "91";
+        start = ninetyone;
+       	end = ninetytwo;
+    }
+    else if (current < ninetythree) 
+    {
+     	lvl = "92";
+        start = ninetytwo;
+       	end = ninetythree;
+    }
+    else if (current < ninetyfour) 
+    {
+     	lvl = "93";
+        start = ninetythree;
+       	end = ninetyfour;
+    }
+    else if (current < ninetyfive) 
+    {
+     	lvl = "94";
+        start = ninetyfour;
+       	end = ninetyfive;
+    }
+    else if (current < ninetysix) 
     {
      	lvl = "95";
-        start = start;
+        start = ninetyfive;
        	end = ninetysix;
     }
    	else if (current < ninetyseven)
