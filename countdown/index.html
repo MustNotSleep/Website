@@ -40,6 +40,8 @@
   	var current = new Date().getTime();
     var start = new Date(2022, 01, 14, 0);
     var end = new Date(2027, 04, 21, 0);
+    var seventyeight = new Date(2022, 05, 09, 0);
+    var seventynine = new Date(2022, 05, 22, 0);
     var eighty = new Date(2022, 06, 07, 0);
     var eightyone = new Date(2022,06,24,0);
     var eightytwo = new Date(2022, 07, 12, 0);
@@ -62,10 +64,22 @@
     var ninetyeight = new Date(2026,00,31,0);
     var ninetynine = new Date(2027,04,21,0);
 
-    if (current < eighty) 
+    if (current < seventyeight) 
+    {
+     	lvl = "77";
+        start = start;
+       	end = seventyeight;
+    }
+    else if (current < seventynine) 
+    {
+     	lvl = "78";
+        start = seventyeight;
+       	end = seventynine;
+    }
+   else if (current < eighty) 
     {
      	lvl = "79";
-        start = start;
+        start = seventynine;
        	end = eighty;
     }
    else if (current < eightyone) 
