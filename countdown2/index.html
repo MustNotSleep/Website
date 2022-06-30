@@ -37,8 +37,7 @@
     </div>
 
     <script>
-      
-    // Log to console
+   // Log to console
 var start_date = new Date(2022,01,14);
 var end_date = new Date(2023,05,11);
 var today_date = new Date().getTime();
@@ -156,17 +155,15 @@ for (let i = 0; i < levels.length; i++) {
 }
 
 for (let i = 0; i < percentages.length; i++) {
- new_levels.push([i+1,((percentages[i][1]*difference)+(start_date-0))])
- console.log(new_levels[i][0],new_levels[i][1]);
+ new_levels.push([i+1,((percentages[i][1]*(difference+start_date)))])
 }
 
 console.log(difference+(start_date-0));
 
 for (let i = 0; today_date > new_levels[i][1]; i++)
 {
-console.log("enterloop");
 	if (today_date > new_levels[i][1]) {
-  		display_level=i;
+  		display_level=new_levels[i][0];
       display_percent = new_levels[i][1];
   }
   else 
