@@ -37,7 +37,7 @@
     </div>
 
     <script>
-   // Log to console
+// Log to console
 var start_date = new Date(2022,01,14);
 var end_date = new Date(2023,05,11);
 var today_date = new Date().getTime();
@@ -151,37 +151,61 @@ var display_percent;
 
 for (let i = 0; i < levels.length; i++) {
   percentages.push([levels[i][0], (levels[i][1]/total_exp)]);
-  console.log(percentages[i][0], percentages[i][1]);
 }
+
+console.log(start_date.getTime()+(difference*percentages[1][1]));
 
 for (let i = 0; i < percentages.length; i++) {
- new_levels.push([i+1,((percentages[i][1]*(difference+start_date)))])
+if (i == 0) {
+	new_levels.push([(i+1),start_date.getTime(),(start_date.getTime()+(difference*percentages[i+1][1]))]);
+}
+else if (i == 98) {
+	new_levels.push([(i+1),new_levels[i-1][2],end_date.getTime()]);
+}
+else{
+ new_levels.push([i+1,new_levels[i-1][2],(start_date.getTime()+(difference*percentages[i+1][1]))]);
+ }
 }
 
-console.log(difference+(start_date-0));
 
+var level_exp;
+var today_progress;
+var current_level_percent;
+var per_str;
+console.log(new_levels[98]);
+console.log((today_date > end_date) );
+
+  if (today_date >= end_date) 
+  { 
+      today_date = end_date;
+  }
 for (let i = 0; today_date > new_levels[i][1]; i++)
 {
-	if (today_date > new_levels[i][1]) {
-  		display_level=new_levels[i][0];
-      display_percent = new_levels[i][1];
+
+	if (today_date == end_date)
+  {
+			display_level = 99;
+  	  current_level_percent = 100;
+      per_str = (current_level_percent).toPrecision(3).toString().concat("%");
   }
-  else 
-  { //do nothing
+	else if (today_date > new_levels[i][1]) {
+  		level_exp = new_levels[i][2]-new_levels[i][1]; //end date - start date for level
+      today_progress = today_date - new_levels[i][1]; //today - start date
+      display_level = new_levels[i][0];
+      current_level_percent = 100*(today_progress / level_exp);
+      per_str = (current_level_percent).toPrecision(3).toString().concat("%");
   }
+  else {
+  //do nothing
+  }
+
 }
 
-console.log(display_level, display_percent);
+console.log(display_level, per_str);
 
-;
-
-      var tot = (end-start);
-      var remaining = (end-current);
-      var percent = (tot-remaining)/tot*100;
-      var per_str = (percent).toPrecision(3).toString().concat("%");
-      document.getElementById("lvl").innerHTML = lvl;
+      document.getElementById("lvl").innerHTML = display_level;
       document.getElementById("per").innerHTML = per_str;
-      document.getElementById("prog").value = percent;
+      document.getElementById("prog").value = current_level_percent;
     </script>
     <!-- <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=kevinrossoll.com" alt="Hits" style="display: none"> -->
 </body>
