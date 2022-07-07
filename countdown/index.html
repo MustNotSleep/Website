@@ -32,9 +32,9 @@
     <div class="centered">
       <div>
         <progress id="prog" max="100" value=""></progress>
-	<audio id="sound1" src="/images/ka-ching.mp3" preload="auto"></audio>
-	<button style="opacity: 0;width: 3px;clear: both;margin: 0 0 0 -2.75em;" onclick="document.getElementById('sound1').play();"></button>
-        <p id="lvl" style="margin-top: -.25em; text-align: left; font-weight: 800;"></p>
+	<!--audio id="sound1" src="/images/ka-ching.mp3" preload="auto"></audio-->
+	<!--button style="opacity: 0;width: 3px;clear: both;margin: 0 0 0 -2.75em;" onclick="document.getElementById('sound1').play();"></button-->
+        <p id="lvl" onclick = "sound()" style="margin-top: -.25em; text-align: left; font-weight: 800;"></p>
 	</p>
 	<p id="per" style="text-align: right; margin-top: -2.25em;"></p>
     </div>
@@ -209,7 +209,10 @@ for (let i = 0; today_date > new_levels[i][1]; i++)
       document.getElementById("prog").value = current_level_percent;
 	   
 	    
-	 
+sound() {
+	var snd = new Audio("/images/ka-ching.mp3");
+        snd.play();
+}
     </script>
     <!-- <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=kevinrossoll.com" alt="Hits" style="display: none"> -->
 </body>
