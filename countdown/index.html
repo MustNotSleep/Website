@@ -208,8 +208,15 @@ for (let i = 0; today_date > new_levels[i][1]; i++)
 	   
 	    
 function sound(path) {
+	console.log(current_level_percent);
+	if(current_level_percent < 1)
+	{
 	var snd = new Audio(path);
         snd.play();
+	}
+	else {
+		//do nothing
+	}
 }
     </script>
     <!-- <img src="https://hitcounter.pythonanywhere.com/count/tag.svg?url=kevinrossoll.com" alt="Hits" style="display: none"> -->
