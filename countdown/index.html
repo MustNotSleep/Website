@@ -194,7 +194,7 @@ for (let i = 0; today_date > new_levels[i][1]; i++)
       today_progress = today_date - new_levels[i][1]; //today - start date
       display_level = new_levels[i][0];
       current_level_percent = 100*(today_progress / level_exp);
-      per_str = (current_level_percent).toPrecision(3).floor().toString().concat("%");
+      per_str = (current_level_percent).toFixed(2).floor().toString().concat("%");
   }
   else {
   //do nothing
