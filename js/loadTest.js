@@ -2,7 +2,7 @@ window.addEventListener('submit', validate, false);
 
 function validate() {
   var user_password = document.getElementById("access_code").toLowerCase();
-
+  alert(user_password);
   var stored_passwords = new Array('super secure', 'diana', 'mark');
 
   alert(stored_passwords.indexOf(user_password));
