@@ -9,10 +9,12 @@ function validate() {
   //it doesn't actually matter if anyone accesses this, this is just to nudge anyone who find this page back to where they came from
   if (stored_passwords.indexOf(user_password) != -1)
   {
-      document.getElementById('user_entry').style.display = "none";
+    document.getElementById('user_entry').style.display = "none";
+    alert("in if");
     loadPage('all');
   }
   else {
+    alert("in else);
     history.back();
   }
 
