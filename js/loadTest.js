@@ -1,4 +1,4 @@
-window.addEventListener('load', validate, false);
+window.addEventListener('submit', validate, false);
 
 function validate() {
   var user_password = document.getElementById("access_code").toLowerCase();
