@@ -7,14 +7,14 @@ function validate() {
 
   //a very not secure way to password protect a static page
   //it doesn't actually matter if anyone accesses this, this is just to nudge anyone who find this page back to where they came from
-  //if (stored_passwords.indexOf(user_password) != -1)
-  //{
+  if (stored_passwords.indexOf(user_password) != -1)
+  {
       document.getElementById('user_entry').style.display = "none";
-  //  loadPage('all');
-  //}
-  //else {
-  //  history.back();
-  //}
+    loadPage('all');
+  }
+  else {
+    history.back();
+  }
 
 }
 
