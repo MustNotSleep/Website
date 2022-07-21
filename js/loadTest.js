@@ -1,5 +1,5 @@
 function validate() {
-  var user_password = document.getElementById("access_code").toLowerCase();
+  var user_password = document.getElementById("access_code");
   alert(user_password);
   var stored_passwords = new Array('super secure', 'diana', 'mark');
 
@@ -16,9 +16,6 @@ function validate() {
   //}
 
 }
-
-document.getElementById('user_entry').addEventListener('submit', validate);
-
 
 
 function loadPage(filter_name) {
