@@ -1,5 +1,5 @@
 function validate() {
-  var user_password = document.getElementById("access_code").value.toLowerCase();
+  var user_password = document.getElementById("access_code").value.trim().toLowerCase();
   alert(user_password);
   var stored_passwords = new Array('super secret', 'diana', 'mark');
 
