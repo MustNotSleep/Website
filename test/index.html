@@ -37,6 +37,11 @@
     <div class="filter_buttons" onclick="setFilter('landscape')">landscape</div>
   </div>
     <div class="centered has_filters">
+        <form onsubmit="validate()">
+            <label for="access_code">Enter access code:</label>
+            <input type="text" id="access_code" name="access_code">
+            <input type="submit">
+        </form>
       <div>
           <a href='#' caption='' class='mfp-img' id='a1'><img class='' src='' alt='' id='img1'><p class='' id='capt1'></p></a>
           <a href='#' caption= '' class='mfp-img' id='a2'><img class='' src='' alt='' id='img2'><p class='' id='capt2'></p></a>
