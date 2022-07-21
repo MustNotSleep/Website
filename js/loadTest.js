@@ -1,7 +1,7 @@
 function validate() {
-  var user_password = document.getElementById("access_code");
+  var user_password = document.getElementById("access_code").value;
   alert(user_password);
-  var stored_passwords = new Array('super secure', 'diana', 'mark');
+  var stored_passwords = new Array('DIANA', 'MARK');
 
   alert(stored_passwords.indexOf(user_password));
 
