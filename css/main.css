@@ -208,7 +208,7 @@ div.desc {
 */
 
 form {
- 	margin 0 0 0 30vw;
+ 	margin: 0 0 0 30vw;
 }
 
 
@@ -480,7 +480,7 @@ button:active {
 	        }
 
                 form {
-                 margin 0 0 0 10vw;
+                 margin: 0 0 0 10vw;
                 }
 
                 input {
