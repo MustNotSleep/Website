@@ -1,7 +1,7 @@
 window.addEventListener('load', validate, false);
 
 function validate() {
-  var user_password = window.prompt('Enter password').toLowerCase();
+  var user_password = document.getElementById("access_code").toLowerCase();
 
   var stored_passwords = new Array('super secure', 'diana', 'mark');
 
