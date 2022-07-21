@@ -235,6 +235,7 @@ form {
     max-width: 42vw;
     border-radius: 0.6vh;
     border: 0.15vh solid #DDD;
+    margin: 0 0 0 -30vw;	
 }
 
 input {
