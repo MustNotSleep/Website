@@ -1,5 +1,3 @@
-window.addEventListener('submit', validate, false);
-
 function validate() {
   var user_password = document.getElementById("access_code").toLowerCase();
   alert(user_password);
@@ -18,6 +16,9 @@ function validate() {
   //}
 
 }
+
+document.getElementById('user_entry').addEventListener('submit', validate);
+
 
 
 function loadPage(filter_name) {
