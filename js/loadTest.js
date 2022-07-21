@@ -9,13 +9,13 @@ function validate() {
 
   //a very not secure way to password protect a static page
   //it doesn't actually matter if anyone accesses this, this is just to nudge anyone who find this page back to where they came from
-  if (stored_passwords.indexOf(user_password) != -1)
-  {
-    loadPage('all');
-  }
-  else {
-    history.back();
-  }
+  //if (stored_passwords.indexOf(user_password) != -1)
+  //{
+  //  loadPage('all');
+  //}
+  //else {
+  //  history.back();
+  //}
 
 }
 
