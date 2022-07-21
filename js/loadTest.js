@@ -9,7 +9,7 @@ function validate() {
   //it doesn't actually matter if anyone accesses this, this is just to nudge anyone who find this page back to where they came from
   if (stored_passwords.indexOf(user_password) != -1)
   {
-      document.getElementById('user_entry').style.display = "none";
+    document.getElementById('user_entry').style.display = "none";
     loadPage('all');
   }
   else {
@@ -98,8 +98,8 @@ var images = [
    for (i = images.length; i < 199; i++) {
 
     document.getElementById("a".concat((i+1).toString())).style.display = "none";
-    document.getElementById("img".concat((i+1).toString())).style.dusplay = "none";
-    document.getElementById("capt".concat((i+1).toString())).style.dusplay = "none";
+    document.getElementById("img".concat((i+1).toString())).style.display = "none";
+    document.getElementById("capt".concat((i+1).toString())).style.display = "none";
   }
 }
 
