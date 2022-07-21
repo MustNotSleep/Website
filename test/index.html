@@ -37,7 +37,7 @@
     <div class="filter_buttons" onclick="setFilter('landscape')">landscape</div>
   </div>
     <div class="centered has_filters">
-        <form id="user_entry" onsubmit="return false">
+        <form id="user_entry" method="POST">
             <label for="access_code">Enter access code:</label>
             <input type="text" id="access_code" name="access_code">
             <input type="submit" onclick="validate()" value="Submit">
