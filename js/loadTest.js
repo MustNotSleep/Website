@@ -14,7 +14,7 @@ function validate() {
     loadPage('all');
   }
   else {
-    alert("in else);
+    alert("in else");
     history.back();
   }
 
