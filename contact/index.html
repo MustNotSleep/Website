@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kevin Rossoll</title>
+    <!-- Magnific Popup license available at https://github.com/dimsemenov/Magnific-Popup/blob/master/LICENSE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/magnific-popup.css ">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.png"/>
+    <script src="/js/navigation.js"></script>
+    <script src="/js/loadAbout.js"></script>
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+        <div id="header">
+        <div id="name">
+            <h1><a href=/>Kevin Rossoll</a></h1>
+        </div>
+        <div class="banner">
+          <a href="" class="bannertabs" id="page1"></a>
+          <a href="" class="bannertabs" id="page2"></a>
+          <a href="" class="bannertabs" id="page3"></a>
+          <a href="" class="bannertabs" id="page4"></a>
+          <a href="" class="bannertabs" id="page5"></a>
+        </div>
+    </div>
+   <div class="frame">
+   <div class="container">
+   <div class="label">
+    <h3>About</h3>
+        <p>
+              <div class="inline_block">
+                <a href='#' title= '' class='mfp-img' id='a1'>
+                    <img class='inline_img' src='' alt='' id='img1'>
+                    <p class='inline_caption' id='capt1' style='top: 0'></p>
+                </a>
+                <p class="text_block">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+              </div>
+   </div>
+      <script type="text/javascript">var submitted=false;</script>
+      <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='/submitted/';}"></iframe>
+       <p class="subheading">Contact</p>
+          <form action="https://docs.google.com/forms/d/e/1FAIpQLSce7dnGFsh81qSR2XmRO2u_zuUD7pX8iSOsWO3sC-xr1nr7SA/formResponse" method="POST"  target="hidden_iframe" onsubmit="submitted=true;">
+          <label></label>
+          <input type="email" placeholder="Email" name="emailAddress" class="submitElement">
 
+          <label></label>
+          <textarea rows="5" placeholder="Message" name="entry.435101920" class="submitElement"></textarea>
+
+           <button type="submit" class="submitElement">Submit</button>
+          </form>
+    </div>
+    </div>
+
+    <script>
+    $('.mfp-img').magnificPopup({
+        type: 'image',
+        closeBtnInside: false,
+        closeOnContentClick: false,
+        mainClass: 'mfp-with-zoom',
+
+        image: {
+          titleSrc: 'title'
+        },
+
+        zoom: {
+           enabled: true, // By default it's false, so don't forget to enable it
+
+           duration: 300, // duration of the effect, in milliseconds
+           easing: 'ease-in-out', // CSS transition easing function
+
+           // The "opener" function should return the element from which popup will be zoomed in
+           // and to which popup will be scaled down
+           // By defailt it looks for an image tag:
+           opener: function(openerElement) {
+             // openerElement is the element on which popup was initialized, in this case its <a> tag
+             // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+             return openerElement.is('img') ? openerElement : openerElement.find('img');
+           }
+         },
+
+        callbacks: {
+          open: function() {
+            var self = this;
+            self.wrap.on('click.pinhandler', 'img', function() {
+              self.wrap.toggleClass('mfp-force-scrollbars');
+            });
+          },
+          beforeClose: function() {
+                this.wrap.off('click.pinhandler');
+            this.wrap.removeClass('mfp-force-scrollbars');
+          }
+        },
+
+        image: {
+          verticalFit: true
+        }
+
+      });
+
+    </script>
+</body>
+</html>
