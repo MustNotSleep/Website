@@ -239,6 +239,7 @@ form {
 }
 
 #accessCodeError {
+	position: fixed;
     	color: red;
     	display: none;
 }
