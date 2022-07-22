@@ -450,6 +450,11 @@ button:active {
                 .inline_img {
                       max-height: 55vh;
                  }
+		
+		.submitElement {
+
+			    margin: 0 0 1vh -30vw;
+		}
 
 
 }
@@ -505,11 +510,6 @@ button:active {
                 .subheading {
                      clear: both;
               }
-
-		.submitElement {
-
-			    margin: 0 0 1vh -30vw;
-		}
 
 
 }
