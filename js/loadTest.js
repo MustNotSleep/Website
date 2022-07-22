@@ -13,7 +13,7 @@ function validate() {
     loadPage('all');
   }
   else {
-    history.back();
+    document.getElementById("accessCodeError").style.display = "inline-block";
   }
 
 }
