@@ -505,11 +505,11 @@ button:active {
                 .subheading {
                      clear: both;
               }
+
 		.submitElement {
 
-			    margin: 0 0 1vh -20vw;
+			    margin: 0 0 1vh -30vw;
 		}
-
 
 
 }
@@ -517,7 +517,7 @@ button:active {
 @media only screen and (max-width: 375px) {
 
 	.submitElement {
-			    max-width: 80vw;
+			max-width: 80vw;
 			margin: 0 0 1vh -9vw;
 		}
 
