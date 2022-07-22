@@ -10,7 +10,7 @@ function validate() {
   if (stored_passwords.indexOf(user_password) != -1)
   {
     document.getElementById('user_entry').style.display = "none";
-    document.getElementById('filters').style.display = "unset";
+    document.getElementById('filters').style.display = "block";
     document.getElementById('images').style.display = "unset";
     loadPage('all');
   }
