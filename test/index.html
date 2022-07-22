@@ -7,6 +7,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.0.0/jquery.magnific-popup.min.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/displayMessage.css">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.png"/>
     <link rel="icon" type="image/png" href="/favicon_32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="/favicon_48x48.png" sizes="48x48">
@@ -37,12 +38,14 @@
     <div class="filter_buttons" onclick="setFilter('landscape')">landscape</div>
   </div>
     <div class="container centered has_filters">
-        <form id="user_entry" onsubmit="return false">
-            <label for="access_code" class="submitElement">Enter access code:</label>
-            <input type="text" class="submitElement" id="access_code" name="access_code">
-            <button type="submit" class="submitElement" onclick="validate()">Submit</button>
-            <p class="submitElement" id="accessCodeError">Access code was invalid, please try again</p>
-        </form>
+        <div id="user_form">
+            <form id="user_entry" onsubmit="return false">
+                <h3>Enter access code:</h3>
+                <input type="text" class="submitElement" id="access_code" name="access_code">
+                <button type="submit" class="submitElement" onclick="validate()">Submit</button>
+                <p class="submitElement" id="accessCodeError">Access code was invalid, please try again</p>
+            </form>
+        </div>
       <div id="images">
           <a href='#' caption='' class='mfp-img' id='a1'><img class='' src='' alt='' id='img1'><p class='' id='capt1'></p></a>
           <a href='#' caption= '' class='mfp-img' id='a2'><img class='' src='' alt='' id='img2'><p class='' id='capt2'></p></a>
