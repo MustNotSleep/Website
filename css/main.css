@@ -517,9 +517,9 @@ button:active {
                      clear: both;
               }
 		
-		.submitElement {
-			
-			margin: 0 0 1vh -30vw;
+	      .submitElement {
+			max-width: 80vw;
+			margin: 0 0 1vh -9vw;
 		}
 
 
