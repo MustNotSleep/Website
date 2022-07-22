@@ -355,7 +355,7 @@ button:active {
 
                 .submitElement {
          		max-width: 49vw;
-   			margin: 0 0 1vh -9vw;
+   			margin: 0 0 1vh -30vw;
               		}
                   .caption {
               		 font-size: 1.8vh;
@@ -418,7 +418,6 @@ button:active {
 
 		.submitElement {
 			    max-width: 49vw;
-			    margin: 0 0 1vh -9vw;
 		}
 
               .responsive {
@@ -506,6 +505,10 @@ button:active {
                 .subheading {
                      clear: both;
               }
+		.submitElement {
+
+			    margin: 0 0 1vh -20vw;
+		}
 
 
 
@@ -515,6 +518,7 @@ button:active {
 
 	.submitElement {
 			    max-width: 80vw;
+			margin: 0 0 1vh -9vw;
 		}
 
 }
