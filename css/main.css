@@ -240,7 +240,7 @@ form {
 
 #accessCodeError {
     	color: red;
-    	visibility: none;
+    	display: none;
 }
 input {
  	height: 3.5vh;
