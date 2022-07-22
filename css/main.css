@@ -235,7 +235,7 @@ form {
     	max-width: 42vw;
     	border-radius: 0.6vh;
     	border: 0.15vh solid #DDD;
-    	margin: 0 0 0 -30vw;	
+    	margin: 0 0 1vh -30vw;	
 }
 
 #accessCodeError {
@@ -354,18 +354,19 @@ button:active {
                 }
 
                 .submitElement {
-              			    max-width: 49vw;
+         		max-width: 49vw;
+   			margin: 0 0 1vh -9vw;
               		}
-                  		.caption {
+                  .caption {
               		 font-size: 1.8vh;
               	        }
 
                 .container {
-                 margin: 10vh 10vw 0 10vw;
+                 	margin: 10vh 10vw 0 10vw;
                 }
 
-            		button {
-            			width: 10vw;
+            	button {
+            		width: 10vw;
             		}
 
 
@@ -417,6 +418,7 @@ button:active {
 
 		.submitElement {
 			    max-width: 49vw;
+			    margin: 0 0 1vh 9vw;
 		}
 
               .responsive {
@@ -513,6 +515,7 @@ button:active {
 
 	.submitElement {
 			    max-width: 80vw;
+			margin: 0 0 1vh 9vw;
 		}
 
 }
