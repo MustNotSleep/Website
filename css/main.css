@@ -318,7 +318,7 @@ button:active {
 }
 
 #contactLink {
-	postion: absolute;
+	position: absolute;
  	margin: 6vh 0 0 -30vw;
 }
 }
