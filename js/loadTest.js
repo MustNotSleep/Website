@@ -1,9 +1,9 @@
 function validate() {
   var user_password = document.getElementById("access_code").value.trim().toLowerCase();
-  alert(user_password);
+  //alert(user_password);
   var stored_passwords = new Array('super secret', 'diana', 'mark');
 
-  alert(stored_passwords.indexOf(user_password));
+  //alert(stored_passwords.indexOf(user_password));
 
   //a very not secure way to password protect a static page
   //it doesn't actually matter if anyone accesses this, this is just to nudge anyone who find this page back to where they came from
