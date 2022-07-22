@@ -229,15 +229,19 @@ form {
 }
 
 .submitElement {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 42vw;
-    border-radius: 0.6vh;
-    border: 0.15vh solid #DDD;
-    margin: 0 0 0 -30vw;	
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	max-width: 42vw;
+    	border-radius: 0.6vh;
+    	border: 0.15vh solid #DDD;
+    	margin: 0 0 0 -30vw;	
 }
 
+.accessCodeValidation {
+    	color: red;
+    	visibility: none;
+}
 input {
  	height: 3.5vh;
  	width: 18vw;
