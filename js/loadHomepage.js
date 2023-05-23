@@ -12,6 +12,7 @@ function loadPage() {
   gal_category: category the image falls under (e.g. landscape, still_life) - used for filtering images
   */
   
+  /*
   var images = [
         {path: "/images/1.jpg", caption: "2022", alt_text: "", display_class: "hero", caption_toggle: "visible_capt", gal_catergory: "still_life"},
         {path: "/images/2.jpg", caption: "2021", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "still_life"},
@@ -53,6 +54,8 @@ function loadPage() {
     */
       ];
 
+  */
+  
 //set img ids
   for (i = 0; i < images.length; i++) {
    //set image location
