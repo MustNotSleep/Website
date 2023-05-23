@@ -2,7 +2,7 @@ window.addEventListener('load', loadPage, false);
 
 function loadPage() {
 
-/*
+
   var images = [
         {path: "/images/1.jpg", caption: "Rembrandt caption", alt_text: "Rembrandt, 1615", display_class: "hero", caption_toggle: "visible_capt", gal_catergory: "portrait"},
         {path: "/images/2.jpg", caption: "Test caption, 20x40, 2020", alt_text: "", display_class: "spotlight", caption_toggle: "visible_capt", gal_catergory: "landscape"},
@@ -41,7 +41,7 @@ function loadPage() {
         {path: "/images/7.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/8.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
       ];
-*/
+
 //set img ids
   for (i = 0; i < images.length; i++) {
    //set image location
