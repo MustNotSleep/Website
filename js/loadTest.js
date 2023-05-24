@@ -39,7 +39,6 @@ function loadPage(filter_name) {
         {path: "/images/2.jpg", caption: "2021", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "still_life"},
         {path: "/images/3.jpg", caption: "2021", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "still_life"},
         {path: "/images/4.jpg", caption: "2021", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "still_life"},
-        /*
         {path: "/images/5.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/6.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/7.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
@@ -72,7 +71,6 @@ function loadPage(filter_name) {
         {path: "/images/6.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/7.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/8.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
-    */
       ]; 
 
 
