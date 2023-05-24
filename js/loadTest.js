@@ -97,6 +97,8 @@ function loadPage(filter_name) {
    if (document.getElementById("img".concat((i+1).toString())).classList.contains(filter_name))
    {
      document.getElementById("img".concat((i+1).toString())).style.display = "inherit";
+     //hard code remove caption class so hidden_capt can be removed, than add back in appropriate class
+     document.getElementById("capt".concat((i+1).toString())).classList.remove("hidden_capt");
      document.getElementById("capt".concat((i+1).toString())).classList.add(images[i].caption_toggle);
    }
    else {
