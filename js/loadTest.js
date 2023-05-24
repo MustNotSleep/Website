@@ -96,10 +96,10 @@ function loadPage(filter_name) {
 
    if (document.getElementById("img".concat((i+1).toString())).classList.contains(filter_name))
    {
-     document.getElementById("img".concat((i+1).toString())).style.display = "inherit";     
+     document.getElementById("img".concat((i+1).toString())).style.display = "inherit";
+     document.getElementById("capt".concat((i+1).toString())).style.display = "inherit";
    }
    else {
-     document.getElementById("a".concat((i+1).toString())).style.display = "none";
      document.getElementById("img".concat((i+1).toString())).style.display = "none";
      document.getElementById("capt".concat((i+1).toString())).style.display = "none";
    }
