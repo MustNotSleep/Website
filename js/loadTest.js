@@ -102,7 +102,7 @@ function loadPage(filter_name) {
    else {
      document.getElementById("img".concat((i+1).toString())).style.display = "none";
      //hard code hide caption when filtered out - using display = none doesn't work because it can't be easily reset like images can
-     document.getElementById("capt".concat((i+1).toString())).classList.remove("hidden_capt");
+     document.getElementById("capt".concat((i+1).toString())).classList.add("hidden_capt");
    }
  }
 
