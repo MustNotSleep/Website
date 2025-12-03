@@ -14,11 +14,11 @@ function loadPage() {
   
   
   var images = [
-        {path: "/images/1.jpg", caption: "2022", alt_text: "", display_class: "hero", caption_toggle: "visible_capt", gal_catergory: "still_life"},
+        /*{path: "/images/1.jpg", caption: "2022", alt_text: "", display_class: "hero", caption_toggle: "visible_capt", gal_catergory: "still_life"},
         {path: "/images/2.jpg", caption: "2021", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "still_life"},
         {path: "/images/3.jpg", caption: "2021", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "still_life"},
         {path: "/images/4.jpg", caption: "2021", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "still_life"},
-        /*
+        
         {path: "/images/5.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/6.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
         {path: "/images/7.jpg", caption: "", alt_text: "", display_class: "regular", caption_toggle: "hidden_capt", gal_catergory: "portrait"},
